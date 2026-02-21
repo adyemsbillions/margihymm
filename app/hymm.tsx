@@ -1,7 +1,6 @@
 // Hymm.tsx
-import { Audio } from "expo-av";
 import { useLocalSearchParams, useRouter } from "expo-router";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   ActivityIndicator,
   Modal,
@@ -24,15 +23,6 @@ type Hymn = {
   scripture_ref?: string | null;
 };
 
-type AudioRow = {
-  id: number;
-  audio_title?: string | null;
-  audio_type: string;
-  uploader_name?: string | null;
-  submitted_at: string;
-  audio_url: string;
-};
-
 // ─── Design Tokens ────────────────────────────────────────────────────────────
 const C = {
   bg: "#FAF7F2",
@@ -48,7 +38,6 @@ const C = {
   danger: "#C0392B",
   gold: "#C9A84C",
   goldLight: "#FBF6E9",
-  playing: "#1A1714",
 };
 
 // ─── Chip ─────────────────────────────────────────────────────────────────────
@@ -73,133 +62,7 @@ const Chip = ({ icon, label }: { icon?: string; label: string }) => (
   </View>
 );
 
-// ─── AudioCard ────────────────────────────────────────────────────────────────
-const AudioCard = ({
-  row,
-  isPlaying,
-  onPlay,
-  onStop,
-}: {
-  row: AudioRow;
-  isPlaying: boolean;
-  onPlay: () => void;
-  onStop: () => void;
-}) => (
-  <View
-    style={{
-      backgroundColor: isPlaying ? C.text : C.surface,
-      borderWidth: 1.5,
-      borderColor: isPlaying ? C.text : C.border,
-      borderRadius: 16,
-      padding: 16,
-      flexDirection: "row",
-      alignItems: "center",
-      gap: 14,
-      shadowColor: "#1A1714",
-      shadowOffset: { width: 0, height: isPlaying ? 4 : 1 },
-      shadowOpacity: isPlaying ? 0.14 : 0.04,
-      shadowRadius: isPlaying ? 8 : 4,
-      elevation: isPlaying ? 3 : 1,
-    }}
-  >
-    <TouchableOpacity
-      onPress={isPlaying ? onStop : onPlay}
-      activeOpacity={0.75}
-      style={{
-        width: 46,
-        height: 46,
-        borderRadius: 23,
-        backgroundColor: isPlaying ? C.surface : C.text,
-        alignItems: "center",
-        justifyContent: "center",
-        flexShrink: 0,
-      }}
-    >
-      <Text style={{ fontSize: 18, color: isPlaying ? C.text : C.surface }}>
-        {isPlaying ? "⏹" : "▶"}
-      </Text>
-    </TouchableOpacity>
-
-    <View style={{ flex: 1 }}>
-      <Text
-        style={{
-          fontWeight: "800",
-          fontSize: 14,
-          color: isPlaying ? C.surface : C.text,
-          letterSpacing: 0.1,
-        }}
-        numberOfLines={1}
-      >
-        {row.audio_title || "Audio Recording"}
-      </Text>
-      <View
-        style={{
-          flexDirection: "row",
-          alignItems: "center",
-          gap: 8,
-          marginTop: 4,
-        }}
-      >
-        <View
-          style={{
-            backgroundColor: isPlaying
-              ? "rgba(255,255,255,0.15)"
-              : C.accentLight,
-            paddingHorizontal: 8,
-            paddingVertical: 2,
-            borderRadius: 6,
-          }}
-        >
-          <Text
-            style={{
-              fontSize: 11,
-              fontWeight: "700",
-              color: isPlaying ? C.surface : C.accent,
-              letterSpacing: 0.5,
-              textTransform: "uppercase",
-            }}
-          >
-            {row.audio_type}
-          </Text>
-        </View>
-        <Text
-          style={{
-            fontSize: 12,
-            color: isPlaying ? "rgba(255,255,255,0.6)" : C.textSub,
-          }}
-          numberOfLines={1}
-        >
-          {row.uploader_name || "Anonymous"}
-        </Text>
-      </View>
-    </View>
-
-    {isPlaying && (
-      <View
-        style={{
-          flexDirection: "row",
-          alignItems: "center",
-          gap: 3,
-          paddingRight: 4,
-        }}
-      >
-        {[10, 16, 12, 18, 8].map((h, i) => (
-          <View
-            key={i}
-            style={{
-              width: 3,
-              height: h,
-              borderRadius: 2,
-              backgroundColor: "rgba(255,255,255,0.55)",
-            }}
-          />
-        ))}
-      </View>
-    )}
-  </View>
-);
-
-// ─── MenuItem ─────────────────────────────────────────────────────────────────
+// ─── MenuItem ───────────────────────────────────────────────────────────────── (added back)
 const MenuItem = ({
   icon,
   label,
@@ -255,11 +118,8 @@ export default function Hymm() {
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState("");
   const [hymn, setHymn] = useState<Hymn | null>(null);
-  const [audios, setAudios] = useState<AudioRow[]>([]);
   const [firstLoad, setFirstLoad] = useState(true);
 
-  const soundRef = useRef<Audio.Sound | null>(null);
-  const [playingId, setPlayingId] = useState<number | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
 
   const loadFromCache = async () => {
@@ -268,7 +128,6 @@ export default function Hymm() {
       const cached = await getCachedHymnDetail(id);
       if (cached) {
         setHymn(cached.hymn);
-        setAudios(cached.audios);
       }
     } catch (e) {
       console.warn("Failed to load hymn detail from cache", e);
@@ -291,16 +150,13 @@ export default function Hymm() {
       if (!data.ok) throw new Error(data.error || "Failed");
 
       setHymn(data.hymn);
-      setAudios(data.audios || []);
 
       if (firstLoad) setFirstLoad(false);
     } catch (e: any) {
       if (!silent) {
-        // ── Friendly offline messages ────────────────────────
         if (e.message?.includes("fetch") || e.message?.includes("Network")) {
-          // Check if we have any cached data
           const cached = await getCachedHymnDetail(id);
-          if (cached && (cached.hymn || cached.audios?.length > 0)) {
+          if (cached && cached.hymn) {
             setErr("Offline mode activated ");
           } else {
             setErr("Offline mode – no saved data for this hymn yet");
@@ -315,48 +171,12 @@ export default function Hymm() {
     }
   };
 
-  const stopAudio = async () => {
-    try {
-      if (soundRef.current) {
-        await soundRef.current.stopAsync();
-        await soundRef.current.unloadAsync();
-      }
-    } catch {}
-    soundRef.current = null;
-    setPlayingId(null);
-  };
-
-  const playAudio = async (row: AudioRow) => {
-    await stopAudio();
-    try {
-      const { sound } = await Audio.Sound.createAsync(
-        { uri: row.audio_url },
-        { shouldPlay: true },
-      );
-      soundRef.current = sound;
-      setPlayingId(row.id);
-
-      sound.setOnPlaybackStatusUpdate((status) => {
-        if (status.didJustFinish) {
-          stopAudio();
-        }
-      });
-    } catch (e: any) {
-      setErr(e.message || "Could not play audio");
-    }
-  };
-
-  // Initial load: cache → fresh
   useEffect(() => {
     (async () => {
       await loadFromCache();
       await fetchFresh();
       setFirstLoad(false);
     })();
-
-    return () => {
-      stopAudio();
-    };
   }, [id]);
 
   const handleRefresh = () => {
@@ -415,7 +235,7 @@ export default function Hymm() {
             style={{ fontSize: 12, color: C.textSub, marginTop: 2 }}
             numberOfLines={1}
           >
-            {hymn?.theme ? hymn.theme : "Text & audio versions"}
+            {hymn?.theme ? hymn.theme : "Lyrics"}
           </Text>
         </View>
 
@@ -550,155 +370,6 @@ export default function Hymm() {
                 </Text>
               </View>
             </View>
-
-            {/* ── AUDIO SECTION ──────────────────────────────────────────── */}
-            <View
-              style={{
-                flexDirection: "row",
-                alignItems: "center",
-                justifyContent: "space-between",
-                marginTop: 6,
-              }}
-            >
-              <View>
-                <Text
-                  style={{
-                    fontSize: 17,
-                    fontWeight: "900",
-                    color: C.text,
-                    letterSpacing: -0.3,
-                  }}
-                >
-                  Audio Versions
-                </Text>
-                <Text style={{ fontSize: 12, color: C.textSub, marginTop: 2 }}>
-                  {audios.length} approved recording
-                  {audios.length !== 1 ? "s" : ""}
-                </Text>
-              </View>
-
-              <TouchableOpacity
-                onPress={() =>
-                  router.push({
-                    pathname: "/uploadaudio",
-                    params: { hymn_id: String(hymn.id) },
-                  })
-                }
-                activeOpacity={0.8}
-                style={{
-                  flexDirection: "row",
-                  alignItems: "center",
-                  gap: 6,
-                  backgroundColor: C.text,
-                  paddingVertical: 9,
-                  paddingHorizontal: 14,
-                  borderRadius: 11,
-                }}
-              >
-                <Text style={{ fontSize: 14, color: C.surface }}>🎙</Text>
-                <Text
-                  style={{ color: C.surface, fontWeight: "800", fontSize: 13 }}
-                >
-                  Upload
-                </Text>
-              </TouchableOpacity>
-            </View>
-
-            {/* Refresh button for audio section */}
-            <TouchableOpacity
-              onPress={handleRefresh}
-              activeOpacity={0.7}
-              style={{
-                alignSelf: "center",
-                flexDirection: "row",
-                alignItems: "center",
-                gap: 6,
-                paddingVertical: 8,
-                paddingHorizontal: 16,
-                borderRadius: 12,
-                borderWidth: 1.5,
-                borderColor: C.border,
-              }}
-            >
-              <Text style={{ fontSize: 14, color: C.textSub }}>
-                ↻ Refresh audios
-              </Text>
-            </TouchableOpacity>
-
-            {/* ── EMPTY AUDIO ────────────────────────────────────────────── */}
-            {audios.length === 0 && (
-              <View
-                style={{
-                  backgroundColor: C.goldLight,
-                  borderWidth: 1,
-                  borderColor: "#E8D89A",
-                  borderRadius: 18,
-                  padding: 20,
-                  alignItems: "center",
-                  gap: 8,
-                }}
-              >
-                <Text style={{ fontSize: 32 }}>🎵</Text>
-                <Text
-                  style={{
-                    fontSize: 15,
-                    fontWeight: "800",
-                    color: C.text,
-                    textAlign: "center",
-                  }}
-                >
-                  No recordings yet
-                </Text>
-                <Text
-                  style={{
-                    fontSize: 13,
-                    color: C.textSub,
-                    textAlign: "center",
-                    lineHeight: 20,
-                    maxWidth: 240,
-                  }}
-                >
-                  Be the first to share your voice for this hymn.
-                </Text>
-                <TouchableOpacity
-                  onPress={() =>
-                    router.push({
-                      pathname: "/uploadaudio",
-                      params: { hymn_id: String(hymn.id) },
-                    })
-                  }
-                  activeOpacity={0.8}
-                  style={{
-                    marginTop: 4,
-                    backgroundColor: C.text,
-                    paddingVertical: 12,
-                    paddingHorizontal: 28,
-                    borderRadius: 12,
-                  }}
-                >
-                  <Text
-                    style={{
-                      color: C.surface,
-                      fontWeight: "800",
-                      fontSize: 14,
-                    }}
-                  >
-                    Upload your version
-                  </Text>
-                </TouchableOpacity>
-              </View>
-            )}
-
-            {/* ── AUDIO LIST ─────────────────────────────────────────────── */}
-            {audios.map((a) => (
-              <AudioCard
-                key={a.id}
-                row={a}
-                isPlaying={playingId === a.id}
-                onPlay={() => playAudio(a)}
-                onStop={stopAudio}
-              />
-            ))}
           </View>
         )}
       </ScrollView>
@@ -774,17 +445,6 @@ export default function Hymm() {
               </View>
             </View>
 
-            <MenuItem
-              icon="🎙️"
-              label="Upload audio for this hymn"
-              onPress={() => {
-                setMenuOpen(false);
-                router.push({
-                  pathname: "/uploadaudio",
-                  params: { hymn_id: String(hymn?.id || "") },
-                });
-              }}
-            />
             <MenuItem
               icon="✏️"
               label="Edit hymn text"

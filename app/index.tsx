@@ -119,6 +119,7 @@ const HymnCard = ({
       elevation: 1,
     }}
   >
+    {/* Number badge */}
     <View
       style={{
         width: 44,
@@ -144,6 +145,7 @@ const HymnCard = ({
       </Text>
     </View>
 
+    {/* Text */}
     <View style={{ flex: 1 }}>
       <Text
         style={{
@@ -186,6 +188,7 @@ const HymnCard = ({
       </View>
     </View>
 
+    {/* Arrow */}
     <Text style={{ fontSize: 18, color: C.borderStrong, marginRight: 2 }}>
       ›
     </Text>
@@ -257,12 +260,10 @@ export default function Index() {
       if (firstLoad) setFirstLoad(false);
     } catch (e: any) {
       if (!silent) {
-        // ── Friendly offline messages ────────────────────────────────
         if (e.message?.includes("fetch") || e.message?.includes("Network")) {
-          // Check if we have any cached data
           const cached = await getCachedHymnList();
           if (cached.length > 0) {
-            setErr("Offline mode activated – showing saved list");
+            setErr("Offline mode activated");
           } else {
             setErr("Offline mode – no saved hymns yet");
           }
@@ -276,7 +277,6 @@ export default function Index() {
     }
   };
 
-  // Initial load: cache first → then try fresh
   useEffect(() => {
     (async () => {
       await loadFromCache();
@@ -285,10 +285,9 @@ export default function Index() {
     })();
   }, []);
 
-  // Re-fetch when search changes (after first load)
   useEffect(() => {
     if (!firstLoad) {
-      fetchFresh(true); // silent
+      fetchFresh(true);
     }
   }, [url, firstLoad]);
 
@@ -318,7 +317,6 @@ export default function Index() {
             justifyContent: "space-between",
           }}
         >
-          {/* Brand */}
           <View style={{ flex: 1 }}>
             <View
               style={{
@@ -352,7 +350,6 @@ export default function Index() {
             </Text>
           </View>
 
-          {/* Menu button */}
           <TouchableOpacity
             onPress={() => setMenuOpen(true)}
             activeOpacity={0.7}
@@ -587,7 +584,7 @@ export default function Index() {
       >
         <Text style={{ fontSize: 12 }}>💡</Text>
         <Text style={{ fontSize: 12, color: C.textSub, flex: 1 }}>
-          Open a hymn to see approved audio recordings.
+          Open a hymn to see lyrics.
         </Text>
       </View>
 
@@ -615,7 +612,6 @@ export default function Index() {
               overflow: "hidden",
             }}
           >
-            {/* Handle */}
             <View
               style={{ alignItems: "center", paddingTop: 12, paddingBottom: 4 }}
             >
@@ -629,7 +625,6 @@ export default function Index() {
               />
             </View>
 
-            {/* Header */}
             <View
               style={{
                 paddingHorizontal: 20,
@@ -660,14 +655,6 @@ export default function Index() {
               onPress={() => {
                 setMenuOpen(false);
                 router.push("/uploadhymm");
-              }}
-            />
-            <MenuItem
-              icon="🎙️"
-              label="Upload Audio"
-              onPress={() => {
-                setMenuOpen(false);
-                router.push("/uploadaudio");
               }}
             />
             <MenuItem

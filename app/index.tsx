@@ -1,16 +1,18 @@
+// index.tsx
 import { useRouter } from "expo-router";
 import React, { useEffect, useMemo, useState } from "react";
 import {
-    ActivityIndicator,
-    FlatList,
-    Modal,
-    Pressable,
-    StatusBar,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  ActivityIndicator,
+  FlatList,
+  Modal,
+  Pressable,
+  StatusBar,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
+import { getCachedHymnList } from "../utils/offlineSync";
 import { API_BASE } from "./config";
 
 type HymnRow = {
@@ -201,6 +203,7 @@ export default function Index() {
   const [hymns, setHymns] = useState<HymnRow[]>([]);
   const [err, setErr] = useState<string>("");
   const [menuOpen, setMenuOpen] = useState(false);
+  const [firstLoad, setFirstLoad] = useState(true);
 
   const url = useMemo(() => {
     const p = new URLSearchParams();
@@ -209,25 +212,86 @@ export default function Index() {
     return `${API_BASE}/hymns_list.php?${p.toString()}`;
   }, [q]);
 
-  const load = async () => {
-    setErr("");
-    setLoading(true);
+  const loadFromCache = async () => {
     try {
-      const res = await fetch(url);
-      const data = await res.json();
-      if (!data.ok) throw new Error(data.error || "Failed");
-      setHymns(data.hymns || []);
-    } catch (e: any) {
-      setErr(e.message || "Error");
-    } finally {
-      setLoading(false);
+      const cached = await getCachedHymnList();
+      if (cached.length > 0) {
+        // Apply search filter from cache if query is active
+        if (q.trim()) {
+          const filtered = cached.filter(
+            (h) =>
+              h.title.toLowerCase().includes(q.trim().toLowerCase()) ||
+              String(h.hymn_number).includes(q.trim()),
+          );
+          setHymns(filtered);
+        } else {
+          setHymns(cached);
+        }
+      }
+    } catch (e) {
+      console.warn("Failed to load list from cache", e);
     }
   };
 
+  const fetchFresh = async (silent = false) => {
+    if (!silent && firstLoad) {
+      setLoading(true);
+    }
+    setErr("");
+
+    try {
+      const res = await fetch(url, { cache: "no-store" });
+      const data = await res.json();
+
+      if (!data.ok) throw new Error(data.error || "Request failed");
+
+      const freshHymns = data.hymns || [];
+
+      setHymns(
+        q.trim()
+          ? freshHymns.filter(
+              (h: HymnRow) =>
+                h.title.toLowerCase().includes(q.trim().toLowerCase()) ||
+                String(h.hymn_number).includes(q.trim()),
+            )
+          : freshHymns,
+      );
+      setErr("");
+
+      if (firstLoad) setFirstLoad(false);
+    } catch (e: any) {
+      if (!silent) {
+        setErr(
+          e.message?.includes("fetch")
+            ? "No internet connection. Showing last saved list."
+            : e.message || "Failed to load hymns",
+        );
+      }
+      console.warn("Fetch error:", e);
+    } finally {
+      if (!silent && firstLoad) setLoading(false);
+    }
+  };
+
+  // Initial load: cache first → then try fresh
   useEffect(() => {
-    load();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [url]);
+    (async () => {
+      await loadFromCache();
+      await fetchFresh();
+      setFirstLoad(false);
+    })();
+  }, []);
+
+  // Re-fetch when search changes (after first load)
+  useEffect(() => {
+    if (!firstLoad) {
+      fetchFresh(true); // silent
+    }
+  }, [url, firstLoad]);
+
+  const handleRefresh = () => {
+    fetchFresh();
+  };
 
   return (
     <View style={{ flex: 1, backgroundColor: C.bg }}>
@@ -281,7 +345,7 @@ export default function Index() {
                 marginLeft: 28,
               }}
             >
-              Browse &amp; listen to real voices
+              Browse & listen to real voices
             </Text>
           </View>
 
@@ -362,9 +426,10 @@ export default function Index() {
             flexDirection: "row",
             alignItems: "center",
             marginTop: 10,
+            justifyContent: "space-between",
           }}
         >
-          {loading ? (
+          {loading && firstLoad ? (
             <View
               style={{ flexDirection: "row", alignItems: "center", gap: 6 }}
             >
@@ -402,10 +467,9 @@ export default function Index() {
           )}
 
           <TouchableOpacity
-            onPress={load}
+            onPress={handleRefresh}
             activeOpacity={0.7}
             style={{
-              marginLeft: "auto",
               flexDirection: "row",
               alignItems: "center",
               gap: 6,
@@ -481,7 +545,7 @@ export default function Index() {
                   letterSpacing: 0.1,
                 }}
               >
-                No hymns found
+                {q.trim() ? "No matching hymns" : "No hymns found"}
               </Text>
               <Text
                 style={{
@@ -492,7 +556,9 @@ export default function Index() {
                   lineHeight: 19,
                 }}
               >
-                Try a different search term or refresh the list.
+                {q.trim()
+                  ? "Try different words or refresh"
+                  : "Check connection or pull to refresh"}
               </Text>
             </View>
           ) : null
@@ -534,7 +600,6 @@ export default function Index() {
           }}
         >
           <Pressable
-            onPress={() => {}}
             style={{
               backgroundColor: C.surface,
               borderTopLeftRadius: 22,

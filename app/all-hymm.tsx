@@ -3,6 +3,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import {
     ActivityIndicator,
     FlatList,
+    StatusBar,
     Text,
     TextInput,
     TouchableOpacity,
@@ -18,9 +19,24 @@ type HymnRow = {
   created_at: string;
 };
 
+// ─── Design Tokens ────────────────────────────────────────────────────────────
+const C = {
+  bg: "#FAF7F2",
+  surface: "#FFFFFF",
+  border: "#E8E2D9",
+  borderStrong: "#C8BFB0",
+  text: "#1A1714",
+  textSub: "#7A7168",
+  textMuted: "#A89F94",
+  accent: "#8B5E3C",
+  accentLight: "#F2EBE3",
+  accentDark: "#5C3D24",
+  danger: "#C0392B",
+  gold: "#C9A84C",
+};
+
 export default function AllHymm() {
   const router = useRouter();
-
   const [q, setQ] = useState("");
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState("");
@@ -54,44 +70,245 @@ export default function AllHymm() {
   }, [url]);
 
   return (
-    <View style={{ flex: 1, padding: 16, gap: 12 }}>
-      <Text style={{ fontSize: 18, fontWeight: "800" }}>All Hymns</Text>
+    <View style={{ flex: 1, backgroundColor: C.bg }}>
+      <StatusBar barStyle="dark-content" backgroundColor={C.bg} />
 
-      <TextInput
-        value={q}
-        onChangeText={setQ}
-        placeholder="Search by hymn number, title, or lyrics..."
+      {/* ── HEADER ─────────────────────────────────────────────────────────── */}
+      <View
         style={{
-          borderWidth: 1,
-          borderColor: "#ddd",
-          paddingHorizontal: 12,
-          paddingVertical: 10,
-          borderRadius: 10,
+          paddingHorizontal: 20,
+          paddingTop: 20,
+          paddingBottom: 16,
+          borderBottomWidth: 1,
+          borderBottomColor: C.border,
+          backgroundColor: C.bg,
         }}
-      />
+      >
+        <View
+          style={{
+            flexDirection: "row",
+            alignItems: "center",
+            gap: 12,
+            marginBottom: 14,
+          }}
+        >
+          {/* Back */}
+          <TouchableOpacity
+            onPress={() => router.back()}
+            activeOpacity={0.7}
+            style={{
+              width: 40,
+              height: 40,
+              borderRadius: 12,
+              borderWidth: 1.5,
+              borderColor: C.border,
+              backgroundColor: C.surface,
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <Text style={{ fontSize: 18, color: C.text }}>‹</Text>
+          </TouchableOpacity>
 
-      {loading ? <ActivityIndicator /> : null}
-      {err ? <Text style={{ color: "red" }}>{err}</Text> : null}
+          <View style={{ flex: 1 }}>
+            <Text
+              style={{
+                fontSize: 20,
+                fontWeight: "900",
+                color: C.text,
+                letterSpacing: -0.5,
+              }}
+            >
+              All Hymns
+            </Text>
+            <Text style={{ fontSize: 12, color: C.textSub, marginTop: 1 }}>
+              Edit mode
+            </Text>
+          </View>
 
+          {/* Admin badge */}
+          <View
+            style={{
+              backgroundColor: C.accentLight,
+              borderWidth: 1,
+              borderColor: "#DDD0C0",
+              paddingHorizontal: 10,
+              paddingVertical: 5,
+              borderRadius: 20,
+            }}
+          >
+            <Text
+              style={{
+                fontSize: 11,
+                fontWeight: "800",
+                color: C.accent,
+                letterSpacing: 0.5,
+                textTransform: "uppercase",
+              }}
+            >
+              Admin
+            </Text>
+          </View>
+        </View>
+
+        {/* Search */}
+        <View
+          style={{
+            flexDirection: "row",
+            alignItems: "center",
+            backgroundColor: C.surface,
+            borderWidth: 1.5,
+            borderColor: C.border,
+            borderRadius: 14,
+            paddingHorizontal: 14,
+            paddingVertical: 2,
+            gap: 8,
+          }}
+        >
+          <Text style={{ fontSize: 16, color: C.textMuted }}>🔍</Text>
+          <TextInput
+            value={q}
+            onChangeText={setQ}
+            placeholder="Search by number, title, or lyrics…"
+            placeholderTextColor={C.textMuted}
+            style={{
+              flex: 1,
+              fontSize: 14,
+              color: C.text,
+              paddingVertical: 12,
+            }}
+          />
+          {q.length > 0 && (
+            <TouchableOpacity onPress={() => setQ("")} activeOpacity={0.7}>
+              <Text style={{ fontSize: 14, color: C.textMuted }}>✕</Text>
+            </TouchableOpacity>
+          )}
+        </View>
+
+        {/* Stats row */}
+        <View
+          style={{
+            flexDirection: "row",
+            alignItems: "center",
+            marginTop: 10,
+            gap: 8,
+          }}
+        >
+          {loading ? (
+            <View
+              style={{ flexDirection: "row", alignItems: "center", gap: 6 }}
+            >
+              <ActivityIndicator size="small" color={C.accent} />
+              <Text style={{ fontSize: 12, color: C.textSub }}>Loading…</Text>
+            </View>
+          ) : (
+            <View
+              style={{
+                flexDirection: "row",
+                alignItems: "center",
+                gap: 6,
+                backgroundColor: C.accentLight,
+                paddingHorizontal: 10,
+                paddingVertical: 5,
+                borderRadius: 20,
+                borderWidth: 1,
+                borderColor: "#DDD0C0",
+              }}
+            >
+              <View
+                style={{
+                  width: 6,
+                  height: 6,
+                  borderRadius: 3,
+                  backgroundColor: C.accent,
+                }}
+              />
+              <Text
+                style={{ fontSize: 12, color: C.accent, fontWeight: "600" }}
+              >
+                {hymns.length} hymn{hymns.length !== 1 ? "s" : ""}
+              </Text>
+            </View>
+          )}
+        </View>
+
+        {err ? (
+          <View
+            style={{
+              marginTop: 10,
+              backgroundColor: "#FEF0EF",
+              borderWidth: 1,
+              borderColor: "#F5C6C2",
+              borderRadius: 10,
+              padding: 10,
+              flexDirection: "row",
+              alignItems: "center",
+              gap: 8,
+            }}
+          >
+            <Text style={{ fontSize: 14 }}>⚠️</Text>
+            <Text style={{ fontSize: 13, color: C.danger, flex: 1 }}>
+              {err}
+            </Text>
+          </View>
+        ) : null}
+      </View>
+
+      {/* ── LIST ───────────────────────────────────────────────────────────── */}
       <FlatList
         data={hymns}
         keyExtractor={(item) => String(item.id)}
-        contentContainerStyle={{ paddingBottom: 40 }}
+        contentContainerStyle={{
+          paddingHorizontal: 16,
+          paddingTop: 14,
+          paddingBottom: 50,
+        }}
         renderItem={({ item }) => (
           <View
             style={{
+              backgroundColor: C.surface,
               borderWidth: 1,
-              borderColor: "#eee",
-              borderRadius: 12,
-              padding: 12,
+              borderColor: C.border,
+              borderRadius: 16,
+              padding: 14,
               marginBottom: 10,
               flexDirection: "row",
               alignItems: "center",
-              justifyContent: "space-between",
-              gap: 10,
+              gap: 12,
+              shadowColor: "#1A1714",
+              shadowOffset: { width: 0, height: 1 },
+              shadowOpacity: 0.04,
+              shadowRadius: 4,
+              elevation: 1,
             }}
           >
-            {/* Left: open hymn */}
+            {/* Number badge */}
+            <View
+              style={{
+                width: 44,
+                height: 44,
+                borderRadius: 12,
+                backgroundColor: C.accentLight,
+                borderWidth: 1,
+                borderColor: "#DDD0C0",
+                alignItems: "center",
+                justifyContent: "center",
+                flexShrink: 0,
+              }}
+            >
+              <Text
+                style={{
+                  fontSize: 13,
+                  fontWeight: "800",
+                  color: C.accent,
+                  letterSpacing: -0.3,
+                }}
+              >
+                {item.hymn_number}
+              </Text>
+            </View>
+
+            {/* Tap to view */}
             <TouchableOpacity
               onPress={() =>
                 router.push({
@@ -99,17 +316,50 @@ export default function AllHymm() {
                   params: { id: String(item.id) },
                 })
               }
+              activeOpacity={0.7}
               style={{ flex: 1 }}
             >
-              <Text style={{ fontWeight: "800" }} numberOfLines={1}>
-                {item.hymn_number}. {item.title}
+              <Text
+                style={{
+                  fontSize: 15,
+                  fontWeight: "700",
+                  color: C.text,
+                  letterSpacing: 0.1,
+                }}
+                numberOfLines={1}
+              >
+                {item.title}
               </Text>
-              <Text style={{ opacity: 0.7, marginTop: 4 }} numberOfLines={1}>
-                {item.language}
-              </Text>
+              <View
+                style={{
+                  flexDirection: "row",
+                  alignItems: "center",
+                  gap: 6,
+                  marginTop: 4,
+                }}
+              >
+                <View
+                  style={{
+                    width: 6,
+                    height: 6,
+                    borderRadius: 3,
+                    backgroundColor: C.gold,
+                  }}
+                />
+                <Text
+                  style={{
+                    fontSize: 12,
+                    color: C.textSub,
+                    textTransform: "capitalize",
+                    letterSpacing: 0.3,
+                  }}
+                >
+                  {item.language}
+                </Text>
+              </View>
             </TouchableOpacity>
 
-            {/* Right: edit button */}
+            {/* Edit button */}
             <TouchableOpacity
               onPress={() =>
                 router.push({
@@ -117,20 +367,52 @@ export default function AllHymm() {
                   params: { id: String(item.id) },
                 })
               }
+              activeOpacity={0.75}
               style={{
-                backgroundColor: "black",
-                paddingVertical: 10,
+                flexDirection: "row",
+                alignItems: "center",
+                gap: 5,
+                borderWidth: 1.5,
+                borderColor: C.borderStrong,
+                paddingVertical: 8,
                 paddingHorizontal: 12,
                 borderRadius: 10,
+                backgroundColor: C.bg,
               }}
             >
-              <Text style={{ color: "white", fontWeight: "700" }}>Edit</Text>
+              <Text style={{ fontSize: 13 }}>✏️</Text>
+              <Text
+                style={{
+                  fontSize: 13,
+                  fontWeight: "700",
+                  color: C.text,
+                  letterSpacing: 0.1,
+                }}
+              >
+                Edit
+              </Text>
             </TouchableOpacity>
           </View>
         )}
         ListEmptyComponent={
           !loading ? (
-            <Text style={{ opacity: 0.7 }}>No hymns found.</Text>
+            <View style={{ paddingTop: 60, alignItems: "center", gap: 10 }}>
+              <Text style={{ fontSize: 36 }}>🎵</Text>
+              <Text style={{ fontSize: 16, fontWeight: "700", color: C.text }}>
+                No hymns found
+              </Text>
+              <Text
+                style={{
+                  fontSize: 13,
+                  color: C.textSub,
+                  textAlign: "center",
+                  maxWidth: 220,
+                  lineHeight: 19,
+                }}
+              >
+                Try a different search term.
+              </Text>
+            </View>
           ) : null
         }
       />

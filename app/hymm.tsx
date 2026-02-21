@@ -296,11 +296,18 @@ export default function Hymm() {
       if (firstLoad) setFirstLoad(false);
     } catch (e: any) {
       if (!silent) {
-        setErr(
-          e.message?.includes("fetch")
-            ? "No internet. Showing last saved version."
-            : e.message || "Failed to load hymn",
-        );
+        // ── Friendly offline messages ────────────────────────
+        if (e.message?.includes("fetch") || e.message?.includes("Network")) {
+          // Check if we have any cached data
+          const cached = await getCachedHymnDetail(id);
+          if (cached && (cached.hymn || cached.audios?.length > 0)) {
+            setErr("Offline mode activated ");
+          } else {
+            setErr("Offline mode – no saved data for this hymn yet");
+          }
+        } else {
+          setErr(e.message || "Failed to load hymn");
+        }
       }
       console.warn("Fetch error:", e);
     } finally {

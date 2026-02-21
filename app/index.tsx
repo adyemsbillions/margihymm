@@ -119,7 +119,6 @@ const HymnCard = ({
       elevation: 1,
     }}
   >
-    {/* Number badge */}
     <View
       style={{
         width: 44,
@@ -145,7 +144,6 @@ const HymnCard = ({
       </Text>
     </View>
 
-    {/* Text */}
     <View style={{ flex: 1 }}>
       <Text
         style={{
@@ -188,7 +186,6 @@ const HymnCard = ({
       </View>
     </View>
 
-    {/* Arrow */}
     <Text style={{ fontSize: 18, color: C.borderStrong, marginRight: 2 }}>
       ›
     </Text>
@@ -216,7 +213,6 @@ export default function Index() {
     try {
       const cached = await getCachedHymnList();
       if (cached.length > 0) {
-        // Apply search filter from cache if query is active
         if (q.trim()) {
           const filtered = cached.filter(
             (h) =>
@@ -261,11 +257,18 @@ export default function Index() {
       if (firstLoad) setFirstLoad(false);
     } catch (e: any) {
       if (!silent) {
-        setErr(
-          e.message?.includes("fetch")
-            ? "No internet connection. Showing last saved list."
-            : e.message || "Failed to load hymns",
-        );
+        // ── Friendly offline messages ────────────────────────────────
+        if (e.message?.includes("fetch") || e.message?.includes("Network")) {
+          // Check if we have any cached data
+          const cached = await getCachedHymnList();
+          if (cached.length > 0) {
+            setErr("Offline mode activated – showing saved list");
+          } else {
+            setErr("Offline mode – no saved hymns yet");
+          }
+        } else {
+          setErr(e.message || "Failed to load hymns");
+        }
       }
       console.warn("Fetch error:", e);
     } finally {
@@ -459,7 +462,11 @@ export default function Index() {
                 }}
               />
               <Text
-                style={{ fontSize: 12, color: C.accent, fontWeight: "600" }}
+                style={{
+                  fontSize: 12,
+                  color: C.accent,
+                  fontWeight: "600",
+                }}
               >
                 {hymns.length} hymn{hymns.length !== 1 ? "s" : ""}
               </Text>

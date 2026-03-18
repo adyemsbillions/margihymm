@@ -1,18 +1,1394 @@
 [
-  {
-    "id": 1,
-    "hymn_number": 1,
-    "title": "Ki Mir Adlivu Ijurmir di Na",
-    "theme": null,
-    "scripture_ref": null,
-    "lyrics": "1. Ki mir adlivu Ijurmir di na, minagu.\nKi mir adlivu Tjurmir di na, minagu;\n\nChorus:\nLatu di adingang,\nDi mpiayu aliguri sa,\nMthlagu, ki gu ambani da.\n\n2. Ki mir dlivu Iju di na, ivir sadaka,\nKi mir 'dlivu Iju di na, ivir sadaka;"
-  },
-  {
-    "id": 2,
-    "hymn_number": 2,
-    "title": "Namir Ivif Dabu",
-    "theme": null,
-    "scripture_ref": null,
-    "lyrics": "1. Namir ivir dabu ga kidu ara Yesu...\n\n2. Ma ja ivir bu udzur mir zarzar bici..."
-  }
+    {
+        "id": 1,
+        "hymn_number": 1,
+        "title": "Yo, Gunggur Sili",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yo, gunggur sili\nAnu Yesu mdur mbani mir,\nAnu Yesu mdur mbani mir,\nAnu Yesu mdur mbani mir.\nSili anu Tada,\nAyu ja ngusha ginda;\nWadiamu anu ngyi,\nGa gunggur sili anu ngyi.\n\nChorus:\nYo, sili halleluya,\nHalleluya, Halleluya:;\nKi mir anayi digalkur\nAnu Iju Mthlagurmir.\n\n2 Yo, gunggur sili\nAnu Yesu mdur mbani mir,\nAnu Yesu mdur mbani mir,\nAnu Yesu mdur mbani mir.\nSili anu Yesu,\nMdur mbani misidagu;\nAyu mir ja papatu,\nGa si di mpi anu mir.\n\n3 Yo, gunggur sili\nAnu Yesu mdur mbani mir,\nAnu Yesi mdur mbani mir,\nAnu Yesu mdur mbani mir.\nSili anu Mambul,\nMdur liba mir wu lagwu;\nMir'usia ngyi ba Tada,\nBa Yesu mdur mbani  mir"
+    },
+    {
+        "id": 2,
+        "hymn_number": 2,
+        "title": "Dlivu Iju, Halleluya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Nanyi ngushar Iju ngu Ptil,\nHamtsini fulang ivir na:\n Halleluya, halleluya.\nHya a aga bici ku ambil,\nKi nyi amil vi paraku;\nAdlivu ngyi, adlivu ngyi,\nHalleluya, halleluya,\nHalleluya!\n\n2 Nagu yamadu ku apsu,\nMitambida adagiiju\nCa nyi ana: Halleluya.\nAdaga ka nta tsu kadu,\nShashilgayer wu vii tsu,\nAdlivu ngyi, adlivu ngyi,\nHalleluya, halleluya,\n. Halleluya!\n\n3 Nagu imi, ka wi'daldal,\nJang na ginyi anu Mthlagu,\nDlivu Iju, Halleluya:\nU'u ku ivir mbu ghurghur,\nKu ivir ta su anu mji,\nDlivu lju, dlivu Iju,\nHalleluya, halleluya\nHalleluya!\n\n4 li minagu anu mji,\nGa'uza fa, kwo pa diri,\nKi nyi fal ngyi, Halieluya!\nUskwar pampam aga uhi,\nAncari sili gi Jju,\nDlivu Mthlagu, dlivu Mthlagu,\nHalleluya, halleluya,\nHalleluya.\n\n5 Ki ngusha ginda afal ngyi,\nJangu\nmdur nia dunya ku,\nHalleluya, halleluya!\nSili anu Tada 'ga Bzir,\nAga Mambul Paraku tsu,\nDlivundamu, dlivundamu,\nHalleluya, halleluya,\nHalleluya!"
+    },
+    {
+        "id": 3,
+        "hymn_number": 3,
+        "title": "Iju, Ptil Dunama",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Iju, Ptil Dunama,\nBar ya ki ya ana\nAnung, Iju.\nMdu aga sili ca,\nKi ga fwa ya barka,\nGa inda ptilurya,\nlju digal.\n\n2 Mthlagu Yesu Kristi,\nBzir gi Iju Mthlagu,\nInda ligu.\nLiba ya wu lagwu,\nMcaku ya dunama,\nGa ra iu sagida,\nMdur mbani ya:\n\n3 Mambul Paraku tsu,\nMdur pili anu mji.\nAzigu 'vung.\nSukwa ngudifaya,\nBar va kidu Iju,\nBar ya iu thlir ginda,\nIjú Mambul."
+    },
+    {
+        "id": 4,
+        "hymn_number": 4,
+        "title": "Yesu Kristi, Mthlagur Dunya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yesu Kristi, Mthlagur dunya,\nKi airi na anung.\nMa ga fwa da barka ginyi\nNgudifayu awadi.\nkil ara gu, Yesu Mthlagu,\nDi acitu thlia mbu.\nDam ai ndigu nagu mai;\nKa ra kitia da abang.\n\n2 Ma ga bar da Wu dunva ku\nKi azibu ndir ginvi.\nNi ambursa, ma ni amtu\nNi 'ra du iva ginyi.\nNagu Yesu, agwuba da,\nLatu di asanakir.\nMamci ginyi ka pinarkir\nGadabar biku giya.\n\n3 Yesu Mthlagu, azirhali,\nGa nkyina ngul nir biku.\nMambul Paraku Kakamtu\nLiba da alu Yesu.\nPtil angwara ptilyer caca,\nBzir gi Iju minagu,\nKija ngudifavu. Mthlagu,\nNi ana ngu su ginyi."
+    },
+    {
+        "id": 5,
+        "hymn_number": 5,
+        "title": "Yesu ara Thlia Digalkur",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Yesu ara thlia digalkur,\nAra mjir Kristian wu dunya,\nMa nda agunggur ngiy sili,\nNaja 'ra inda Mthlagurnda\n\n2 Ngushar mama aga mwaldayer\nKi mir 'zibu Yesu Mthlagu,\nNaja ngu mdur mbani mir cá,\nKi mir adlivu ngyi di na.\n\n3 Mamci gi Yesu izhingyi,\nJang apcına bikurmir ca;\nKuji ki mir azibu ngyi,\nKi ja 'ra kitia mir caca.\n\n4 Yukur ginda acibakir mai,\nKaka boni di ja 'thlia na.\nGadabar ki ja akitia mir,\nDi mji ga tsia ngyi ar wu na.\n\n5 Yesu Mthlagu, ivir nga mir,\nAbur ki mir azibu ngyi:\nNaja 'a na mir mpi bilin,\nMa mir azibu ngyi parang."
+    },
+    {
+        "id": 6,
+        "hymn_number": 6,
+        "title": "Paraku Kakamtu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Pataku Kakamtu, Iju Mthlagurya,\nKulakula naya amilia na anung.\nParaku Kakamtu, dunama ara gu\nGa dlir ya Tada, naya 'usiang\n\n2 Paraku Kakanatu, Tadarya Iju,\nNagu ga na ya misidagkur di barkang.\nMịi gnyi papātu, adlungwa anu ngu,\nGa dlir ya Tada, naya 'usiang\n\n3 Paraku Kakamtu, nagu kalali,\nMji dumi asini minagkur ginvi mai.\nParaku Kakamtu, Iju Mthlagurya,\nGa đlir ya Tada, naya 'usiang."
+    },
+    {
+        "id": 7,
+        "hymn_number": 7,
+        "title": "Halleluya, Mir Adlivu Ijur Mpi",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ki mir 'mai adangwar Mthlagu,\nIjurmir ngu minagu;\nNaja Mthlagur mjir dunya ca,\nWu tsiaja namir ambu;\nHalleluya, halleluya,\nMir adlivu Ijur mpi!\n\n2 Dlivu ngyi ga yukur ginda,\nIvir dinga mjir boni;\nSizigu, ba 'nu ashina,\nBarka ginda ara ptu mai.\nHalleluya, halleluya,\nMir adlivu Ijur mpi!\n\n3 Ndigu di' Tada abar mir,\nNaja ivir hukyu mir,\nTsiaja ara bila mir\nAra dawarmir, Shetar,\nHalleluya, halleluya,\nMir adlivu Tjur mpi!\n\n4 Waladi gi Iju adu,\nNanda 'ga ja, ngwa 'ga ngwa;\nNamir tsu, ki mir adlungwa,\nIvir dlivu Tadarmir;\nHalleluya, halleluya,\nMir adlivu ljur mpi!"
+    },
+    {
+        "id": 8,
+        "hymn_number": 8,
+        "title": "Mji Papatu Wu Dunya Ku",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Mji papatu wu dunya ku,\nKi mir ca adlivu Iju,\nKi mir agunggur ngyi sili,\nGa na anu ngyi di wadi.\n\n2 Iju naja ngu Mthlagur mji,\nNaja nga pia mir wu dunya.\nNaja nga dar mir sur mir ca,\nGa bila mir zarzar bici.\n\n3 Ki mir agwa wu Mbwar Iju,\nGa ra hamtsini daharmir,\nIvir dlivu thlim gi Iju,\nJang misidagu anu mir.\n\n4 Gadabar d'Iju minagu,\nBarka ginda ara ptu mai;\nJirkur ginda 'ga minagkur\nIvir inda wu dunva ku."
+    },
+    {
+        "id": 9,
+        "hymn_number": 9,
+        "title": "Iju, Mthlagur Adu aga Itu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Iju, Mthlagur adu aga itu,\nMdur nia su cayer ku aga mpi,\nNagu Ivir bila nda ba kungku,\nMa ga 'i mai, su ai ndang mai\n\nNaya dlivung, ga usia ngu,\nIju Tada, Ptil dunama,\n\n2 Yukur giyi ivir ncarkir zarzar.\nMji ivir Sim mpi tsu di barkang.\nMa Iju 'dlu, kwo mabora apsu,\nNanda zibu kirwa ginvi tsu.\n\n3 Kwo Wu vii, ca mji ivir kwutu,\nDunama ginyi adagiju;\nHya 'ga shashilgayer ngu ivir mbil,\nlju Tada, jiri nagu Ptil"
+    },
+    {
+        "id": 10,
+        "hymn_number": 10,
+        "title": "Yesu, Ashiliri  Ya Adangwa Ngu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yesu, ashilir ya adangwa ngu,\nNaya agwu sursim jang ara gu.\nZarzar mji ivir sim difu nir mpi,\nThlir ya difu na tsu, jang ndir ginyi.\n\n2 Yesu, ki ga fwa ya barka ginyi,\nKi ya athlidlibu jirjur nir mpi.\nMtu ginyi ar wu na ga ir lagwu\nAnu dunya tikum, ki nda ambu\n\n3 Yesu adabur ya ki ya dinga \nBoni di ga thlia na ga mbani ya.\nDifu ku ncar ya karap' ari,\nAbang abilnar mji udzagu tsu.\n"
+    },
+    {
+        "id": 11,
+        "hymn_number": 11,
+        "title": "Ki Mir Adlivu Ijurmir di Na",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Ki mir adlivu Ijurmir di na, minagu.\nKi mir adlivu Tjurmir di na, minagu;\n\nChorus:\nLatu di adingang,\nDi mpiayu aliguri sa,\nMthlagu, ki gu ambani da.\n\n2 Ki mir dlivu Iju di na, ivir sadaka,\nKi mir 'dlivu Iju di na, ivir sadaka;\n\n3 Ki mir alu Nbwar Ijurmir di na, mnagu,\nKi mir alu Mbwar ljurmir di na, minagu."
+    },
+    {
+        "id": 12,
+        "hymn_number": 12,
+        "title": "Namir lvir  Dabu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Namir ivir dabu ga kidu ara Yesu,\nKi ja afwa mir ca Wu lagwu ginda.\nKwo mji ku ngu dumi, ayu ga dzuktsini,\nNamir 'ra mdia nda ca; naja 'fari mir mai.\n\n2 Ma ja ivir bu udzur mir zarzar bici,\nGa bar mir ki mir ampa sur Shetaryer,\nGa ncar mir lagwur gwa Ptilkur adagiju,\nNamir 'ra usia ngyi, ga gunggur ngyi sili.\n\n3 Naya ivir dlivu ngu, Mdur Mbani Dunya,\nGa kidu ngu ki gu abar ya zarzar.\nKi mji ku Wu Kristi, ambu ca ara gili.\nNaya ausia ngu; naya ngu mji kambu."
+    },
+    {
+        "id": 13,
+        "hymn_number": 13,
+        "title": "Ki Mir Ca Inda Zim",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ki mir ca inda zim, Wu Mbwa gi Iju,\nNaja anga mir, Ki mir 'ngar ndir ginda.\nInda zim, inda zim, Iju aI'vung;\nInda zim, inda zim, ga siku Iju.\n\n2 Ki mir ca inda zim, ga usia Iju,\nDi ja ga fwa mir barka ginda odi.\nInda zim, inda zim, Iju ai 'vung,\nInda zim, inda zim, ga siku Iju.\n\n3 Ki mir ca inda zim, ga dinga Iju,\nNaja ga kitia mir, di barka ginda.\nInda zim, inda zim, Iju ai 'vung;\nInda zim, inda zim, ga siku Iju."
+    },
+    {
+        "id": 14,
+        "hymn_number": 14,
+        "title": "Usi, Usi, Barkar Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Usi, usi. barkar Yesu mdur mbani mji,\nNamu, dunya, ki nvi air ngyi na.\nThlawar Yesu, waladi gi Iju Mthlagu,\nGunggur sili anu Mthlagurmir ca.\nNdigu Tada, Yesu avu mji ginda;\nWu tsiaja tsu, namir inda parang.\nNamir caca, mji ku ga hunggur ngyi jiri,\nBarkar Yesu, ki mir adlivu ngyi.\n\n2 Usi, usi, barkar Yesu mdur mbani mji,\nBikurmir tsu, jang afunggur ngyi mtu.\nMtu ginda tsu, jang ara mbani mir caca,\nBarkar Yesu, naja mdur mpilia mji.\nNubwa thlimngyi, Yesu na, Bzir gi lju,\nAyu ja mir, ha di ja thlia mtu,\nNamir caca, mji ku ga hunggur ngyi jiri,\nBarkar Yesu, ki mir adlivu ngyi.\n\n3 Usi, usi, barkar Yesu mdur mbani mji,\nWu vir mtu na ahyar ja aga mpi.\nYesu ai, ambar ja dawarmir, mtu na,\nMir azibu mdu aga dunama\nYesu ai, namir awadi kadzang;\nNa ngyi Ptilkur, naja Mthlagurmir ca,\nNamir caca, mji ku ga hunggur ngyi jiri. \nBarkar Yesu, ki mir adlivu ngyi.\n"
+    },
+    {
+        "id": 15,
+        "hymn_number": 15,
+        "title": "Iju Mthlagu, Adaburi Ya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Iju Mthlagu, adabur ya,\nKi ya agunggur ngu sili.\nNagu nga fia sur dunva ca,\nJang di ya agwu ga usia ngu.\n\n2 Bici 'ga Hya 'ga shashilga,\nNagu nga fia nda,wu virnda,\nWuyer, aga sur mtagu ca,\nIju, nagu ngu Mthlagurnda.\n\n3 Kwo di sur dunya minagu,\nSur mdia nda ca adangwa ngu;\nJang ngudifa mji papatu,\nKu ivir zibu ngu, Mthlagu.\n\n4 Kija, Mthlagu, ashilir ya,\nKi ya inda mji ginyi.\nKi gu adlir ya, Mthlagurya,\nKi ga fwa ya barka ginyi."
+    },
+    {
+        "id": 16,
+        "hymn_number": 16,
+        "title": "Iju Mthlagu, Minagu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Iju Mthlagu, minagu,\nShilir ya wu Mbwa Ginyi ku,\nGa dlungwa, Iju, anu ngu,\nGa kidu barka ara gu.\n\n2 Su tsapu ara ya mai,\nDi ya citu na anu ngu;\nKi gu kwutia tukurya,\nBila ya di yukur ginyi,\n\n3 Naya 'kidu ara gu,\nPsia thlimi anu ndirya,\nDar ya Mambul ngu Paraku,\nKi ja 'ncar ya lagwur kidu.\n\n4 Ma ya angar ndir ginyi\nNgudifaya ca awadi;\nHivir tsu ara mbar ya mai;\nMpilia ya di jirkur ginyi."
+    },
+    {
+        "id": 17,
+        "hymn_number": 17,
+        "title": "Ki Kyarayu Ana Dubu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ki kyarayu ana dubu\nGa dlivu mdur mbani,\nSili gi Iju, ptilurmir\nNgu adu angwara ca.\n\n2 Yesu thlim ku akuduna\nBoni aga hivir.\nThlim ku ampilia mji mbamba,\nAra bikurnda caca.\n\n3 Thlim ku akidlina Shetar\nNamir tsu mafa mai;\nMamcir Yesu apcina mji,\nNaja nga pcinadari.\n\n4 Di nda angaba ndir ginda,\nMji mtumtu ara mbu;\nNgudifu mdzumdzu awadi\nMjir boni ambursa tsu.\n\n5 Yesu Mthlagu inda ligu,\nGa bar da, ki acu\nNdir ginyi nir mbaniudzu\nAnu mjir dunya patu,"
+    },
+    {
+        "id": 18,
+        "hymn_number": 18,
+        "title": "Usi Ijurya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Usi Ijurya, gadabar Bzir ginyi,\nMdu dija amturi na ga bura hyadu;\n\nChorus:\nBarkar Iju, sili ginyi;\nBarkar Iju,amin\nBarkar Iju, sili ginyi,\nMcaku ya mpi dam.\n\n2 Usi Tadarya, ga Mambul ginyi tsu,\nGa ncar ya Yesu ga kuduna ya kwuthlu\n\n3 Mir 'gunggur sili anu Yesu Mthlagu,\nGadabar nkyina bikurmir di ja ga mtu,.\n\n4 Mir 'gunggur sili anu Yesu Mthlagu\nNaja ayu mir kwo mir angger ngyi ga Su.\n\n5 Mcaku ya mpi dam, ki ya apa Yesu,\nKi ya ayu kuvarya ga ncar nda lagwu."
+    },
+    {
+        "id": 19,
+        "hymn_number": 19,
+        "title": "Liba Da, Yo Yesu Mthlagu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Liba da, Yo Yesu Mthlagu\nKi ga liba da parang.\nNi kakafu, nagu Mthlagu\nAga dunama tikun,\nMdur mbani da, thlir da difur mpi bilin;\nMdur mbani da, thlir da difur mpi bilin.\n\n2 Ni mdur larmta Wu dunya ku,\nKi ga liba da zarzar.\nNi ga sa pidum wu mtagu,\nKi ga fwa da wu lagwu.\nMdur bila da, fwa da wu cibu ginyi;\nMdur bila da, fwa da wu cibu ginyi.\n\n3 Latu di ni adu Zarna,\nNgudifayu apida.\nNi ara fa warata na,\nWu pamur mji cacadu.\nMdur mbani da, fwa da wu yukur ginyi;\nMdur mbani da, fwa da wu yukur ginyi."
+    },
+    {
+        "id": 20,
+        "hymn_number": 20,
+        "title": "Ekklesiyar Yesu Kristi",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ekklesiyar Yesu Kristi\nAnciarkir wu dunya;\nYesu nga ncia ngyi bilin\nAnu mji papatu.\nAhyar ja dagiju,\nGa dzia wu dunya ku,\nGa puna mamci ginda\nGadabar mji caca.\n\n2 Anar mir mji cacadu,\nNamir, kwo jil marye,\nNamir ca ngushar Tada, \nWu thlim Yesu Mthlagu\nMa namir inda cipcu,\nAyu mir ja, jiri\nThlim Yesu misidagu\nAnu mji papatu\n\n3 Kwo di thlir dzau, kwo boni,\nMa mbursarmi ai,\nEkklesivar Yesu Kristi\nJang aga sagida\nMa mir 'bila ndir ginda,\nGa mpa dumikur tsu,\nNamir ara du Zarna,\nGa inda 'ga Yesu."
+    },
+    {
+        "id": 21,
+        "hymn_number": 21,
+        "title": "Iju Mthlagu, Ashilir Ya Ca",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Iju Mthlagu, ashilir ya ca\nGa gunggur ngu sili,\nKi Mambul Paraku ginyi ku\nAndzim ar kiraya.\n\n2 Ashilir ya kiya angari\nDahagu Mthlagurya,\nAbur ki ya inda parang udzung,\nNgusha ginyi tsapu\n\n3 Bar ya kiya angar ndir ginyi\nIvu ngudifaya,\nNdir ginyi ku ki ya azibu\nWu bicirya caca."
+    },
+    {
+        "id": 22,
+        "hymn_number": 22,
+        "title": "Yesu Mthlagu, Ni Adlungwa",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yesu Mthlagu, ni adlungwa,\nIvir dinga biku giya ca,\nKa ir ngu boni adar wu na,\nMtu ginyi na ambanidari\n\n2 Ndir ginyi tsu, asini yu,\nThlir ginyi ga ncar da lagwu tsu,\nKuji ki yu anggeri biku,\nGa zibu  ngu, Yesu ngu Mthlagu.\n\n3 Jirkur ginyi ba yumdukur,\nGa fwa da wu misidagukur,\nAga inda ginyi Wu dunya,\nNi ayu ga inda 'bana tsu.\n\n4 Yesu, mcaku da minagkur,\nKi yu azibu ngu Wu lagwu;\nJang di ma ara kubu, Mthlagu,\nAga gu wu Ptilkur gi Iju,"
+    },
+    {
+        "id": 23,
+        "hymn_number": 23,
+        "title": "Wadi Ai, Mthlagu ga Si!",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Wadi ai, Mthlagu ga si.\nMlir adlir Ptilurmir.\nKi ngudifamir ca ana pirtu pwaku adangwa\n(ngyi:\nKi dunya 'milia na,\nKi dunva 'mila na,\nDunva ku, ki du nya ku amilia na.\n\n2 Wadi ai, Yesu ai,\nKi mji aludzu ngyi.\nKi jilir mji wu dunya ku adlivu Iju ku adu;\nDlivu Iju ka du,\nDlivu Iju ka du,\nDlivu ngyi, dlivu Iju ku ngu adu,\n\n3 Agwar ja wu Ptilkur ginda.\nGa iu su di jirkur.\nKi ja ancar yukur ginda anu mji tikum Wu\n(dunya,\nThlir Iju ngu jiri,\nThlir Iju ngu jiri,\nThlir lju, thlir Iju ku aga jiri.\n\n4 Shar sur biku aga nir mtu,\nGa na di ja ga si.\nNaja ga [wa barka ginda, ki ca mji inda minagu;\nKi paraku ana,\nKi paraku ana,\nParaku, ki paraku ginda ana."
+    },
+    {
+        "id": 24,
+        "hymn_number": 24,
+        "title": "Wu Nggaba Mji ga Mpina Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Wu nggaba jang di nda ga mpina Yesu,\nJa ga pida 'ga mawi, mbwa ca nyinyu.\nBzir gi Iju ga pida ndigu mafa,\nMji kula dzani naja Mdur Mbani mji\n\n2 Anggerir ja Zarna, adziar ja uvung,\nKi ja abar mir, ki mir 'thlia Zarna;\nMa naja tsu wu Zarna, naja Maina,\nDi ja adziari, ja Bzir talaka.\n\n3 Kungku Bzir gi Iju ayu ga inda\nIvu wu ngidifa mjir dunya tikum.\nKija, Yesu Mthlagu, nayu bzir ginyi,\nGwa Wu ngudifayu, ga inda akwa."
+    },
+    {
+        "id": 25,
+        "hymn_number": 25,
+        "title": "Psia Thlimi ga Ngar Na Ku",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Psia thlimi, ga ngar na ku\nSili anu Ptil bilin.\nBarka gi Iju Mthlagu,\nNamir aswala 'ga ja.\nMisidagkur wu dunya,\nWadi ai anu mji.\nWaladiyer nga nubwa,\nYiabar Kristi, Imanuel,\nWu iir Baitalhami,\nGunggur sili anu ngyi.\n\n2 Namir usia Maina Yesu,\nNaja Nabi, naja Ptil.\nAdziar ja Wu dunya ku\nKi ja 'kitia mji sasa.\nKungku  paraku ai,\nKwuthlu tsu akubarı;\nDunama ara Yesu,\nGa kitia mji ara mtu,\nWaladiyer iVir na,\nSili anu Ptil digal."
+    },
+    {
+        "id": 26,
+        "hymn_number": 26,
+        "title": "Uvii Na, Misidagu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Uvii na, misidagu,\nSu ca zim, paraku,\nUdzur mama aga Bzir,\nBzir tsapu ngu kalali,\nNaja ngu ivir ghanyi,\nGhanyi ngu misidagu.\n\n2 Uvii na, wu latu na,\nParaku ga ziba;\nMjir bila ga ngari na,\nHalleluva anu Ptil;\nYiabar Yesu ngu Kristi.\nNaja ngu Yesu Mthlagu.\n\n3 Uvii na, shashilga na,\nGa thlatu, ivir mbil.\nMi ntsintsil na ga kwutia ngyi,\nDi nda ga far su anu Ptil,\nYesu ngu Mdur Mbani mji,\nYesu ngu Mdur Mbani mji.\n\n\n4 Uvi na, misidagu,\nSu ca zim, paraku,\nNamir tsu ki mir caca ana,\nHalleluya anu Ptil.\nYiabar Yesu ngu Kristi.\nNaja ngu Yesu Mthlagu."
+    },
+    {
+        "id": 27,
+        "hymn_number": 27,
+        "title": "Halleluya, Halleluya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Halleluya, halleluya,\nSili anu Bzir g'Iju;\nHalleluya, halleluya,\nAdziar ja wu dunya ku.\n\n2 Halleluya, halleluya,\nMjir bila angar na;\nHalleluya, halleluya\nWadi ai anu mir.\n\n3 Halleluya, halleluya,\nShashilga ambil adu;\nGa liba mjir gidi makir\nKi  nda kwutu bzir na tsu.\n\n4 Halleluya, halleluya,\nYesu ambanir mir ca.\nHalleluya, halleluya!\nNamir ca ga thlia mpi."
+    },
+    {
+        "id": 28,
+        "hymn_number": 28,
+        "title": "Adagiiju, Adagiju",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Adagiiju, adagiiju,\nYesu Kristi adagiju;\nBici di ja si, bici di ja si,\nWadi, wadi anu mji ka mbursa;\n\nWaladir Iju adagiiju,\nNaja nga Si di labar anu mir.\n\n2 Uvii di nda yiaba Yesu Kristi,\nBaitalhami nir Yahudiyayer.\nWaladir Iju adagija,\nNaja nga si di labar anu mji.\n\n3 Pahuna ngudifagu anu ngyi,\nYesu Kristi, jang ana mwalda.\nMingu ampilia, mingu ampilia?\nMamci ginda ngu ampilia mir ca."
+    },
+    {
+        "id": 29,
+        "hymn_number": 29,
+        "title": "Mji Ca, Azigamu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Mji ca, azigamu, ca mji ku ambursa,\nAzigu, ashina ki mir ca awadi.\nNdigu ashina, mji ga yiaba Yesu:\n\nChorus:\nMir agunggur ngyi sili,\nMir agunggur ngyi,\nMir agunggur ngyi,\nYesu Mthlagu.\n\n2 Naja Iju Mthlagu, Paraku Kakamtu;\nAmma di ja ga dzia wu dunyarmir ku,\nKi ja 'kitia mji, Maryamu nga yia ngyi:\n\n3 Naya athlawar ngu, Yesu, Bzir gi lju,\nAnung, Yesu, naya ivir iu na ku.\nNaya ausia ngu, ga bici ginyi ku:"
+    },
+    {
+        "id": 30,
+        "hymn_number": 30,
+        "title": "Ndigu Di Mjir Sizigu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ndigu di mjir Sizigu \nIvir wadi uvii na,\nDi nda ga kwutia ngu, Yesu,\nUvung tsu  wu nggaba;\nAbana, jang naya tsu,\nIvir shili udzungu\n\n2 Ndigu di nda ga bdzala,\nGa 'lu vir pida ginyi,\nKi nda agunggur sili\nAnu ngu, Bzir gi Iju;\nAbana ki ya alu\nUdzungu zarzar, Mthlagu\n\n3 Ndigu di nda ga fasu\nGa hamtsini anu ngu,\nNaya tsu ki ya 'wadi\nIvir na ngu surya tsu,\nGa ra iu thlir ginyi ku\nDi ga fwa ya kwa Mthlagu."
+    },
+    {
+        "id": 31,
+        "hymn_number": 31,
+        "title": "Naya Makir Mjir Gidi",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Naya makir mjir gidi,\nPidum ahyar ya aga su,\nGa bu adar ngu ba mtagu,\nLiba ya 'lu Yesu.\n\nChorus:\nYo! Shashilga na, shashilga,\nMbil ginyi ngu habada!\nLagwur gidi di gu ga bu,\nLiba ya ludzur Yesu.\n\n2 Wu iir Baitalhami,\nMbizhiwa ayiabarkir,\nDinar ku asi ara yu,\nGa na ngyi anu Ptil.\n\n3 Urdi ku ki ahamtsini,\nSur shu'ur ngu misidagu.\nMji tikum ku ivir dlivu ngyi,\nIjurmir ngu adu,\n\n4 Hamdzil ku su dadahu,\nKarapur boni ngu dzau,\nNggil, puna mamci, ba mtu,\nAga pida wu hu.\n\n5 Sili anu Ijurmir,\nBarkar Yesu, dunama,\nHalleluya, halleluya,\nNamir ca ivir na:"
+    },
+    {
+        "id": 32,
+        "hymn_number": 32,
+        "title": "Umwar Bzir Ngu Ptil Bilin Ra?",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Umwar Bzir ngu Ptil bilin na\nKa dzia wu dunya ku?\nUlar ya shashilga ginda,\nAmbil adagiju,\nAhur yasu ga shili.\nKi ya 'gha anu ngyi,\nNdigu di mji ntsintsil ga gha\nAnu ngyi sizigu,\n\n2 Umwar Bzir ngu Ptil bilin na\nKu ambani dunya?\nAngar ya ndir di mji ga cu\nArkira shili ginda,\nDi ya agunggur sili,\nGa gha su anu ngyi,\nKiya ana ga mji ntsintsil\nNdigu mjir sizigu.\n\n3 Umwar Bzir ngu Ptil bilin na\nKa yu mjr dunya ra?\nKi mir caca adabudzu,\nGa gha su anu ngiyi\nGadabar di ja ayu \nKi mir amcaku tsu\nWu ntsintsilkur ba minagkur,\nNdigu mjir sizigu."
+    },
+    {
+        "id": 33,
+        "hymn_number": 33,
+        "title": "Anu Mir Mji Ga Yiaba Bzir",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Anu mir mji ga yiaba Bzir, \nNaja ngu Bzir g'Iju;\nKi jilir mji wu dunya ca \nAgunggur ngyi sili;\nGunggur sili anu Yesu,\n Ga fia ngyi Mthlagu.\n\n2 Naja Mainar Misidagkur\nSili ca niginda,\nNaja jangu mukajirmir,\nDunama ara ja.\nGunggur sili anu Yesu,\nGa fia ngyi Mthlagu.\n\n3 Dunama ginda aptu mai,\nNaja ivir mcaku;\nJirkur ai adagiiju,\nMisidagkur itu.\nGunggur sili anu Yesu,\nGa fia ngyi Mthlagu."
+    },
+    {
+        "id": 34,
+        "hymn_number": 34,
+        "title": "Ngar Nyi Ca Daha Mjir Iju",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ngar nyi ca daha mjir Iju,\nIvir na adagiiju;\nWaladir Iju awadi\nIvir na, Halleluya.\n\n2 Ngar nyi ndir di nda aciba,\n\"sili anu Ijurmir,\nWu dunya ki misidagkur\nInda wu pamur mji ca\",\n\n3 Barka ga hya ara Iju Mthlagu,\nGa dzia wu dunyarmir,\nMdur mbani mir ara bikurmir Ca,\nAdlari anu mir tsu.\n\n4 Mji ga yiaba Yesu Kristi,\nKí mir adlir ngyi kungku.\nKi mir agunggur ngyi sili ca,\nMthlagurmir, ngu Ptil' dunya.\n\n5 Azigamu, ki mir ana tsu,\nIvir dlivu thlim ginda.\nNgudifamir caca jang niginda,\nHalleluva anu ngyi!"
+    },
+    {
+        "id": 35,
+        "hymn_number": 35,
+        "title": "Įjurya, Ashiliri Ya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ijurya, ashilir ya,\nKi ya adlivu ngu.\nNgudifaya acim ngu,\nKwo di ya wu ghanyi\nDlamir mji wu dunya ku,\nIvir gwu tiwudu ginyi,\nCa ya tsu gusha ginyi,\nFwa ya wu lagwur mbu.\n\n2 Wu dunya libam ai,\nJang hivir ai tsu,\nPwa ya ca wu Cib' ginyi,\nGa liba ya zarzar.\nWu latu di ya tsana,\nGa mai wu ivir sa ngu dzau,\nHyanba ya Mambul ginyi,\nKi ja ambani ya,"
+    },
+    {
+        "id": 36,
+        "hymn_number": 36,
+        "title": "Adadayer Caca",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1. Adadayer caca, aga cijiyer ca,\nKi mir angger sur Shetar;\n\nMa mir angger sur Shetar,\nYesu 'ra ncar mir lagwu,\nMa mir angger sur Shetar.\n\n2 Azigamu Ptilyer, ki mir agunggur sili\nAnu Yesur Iju;\n\n3 Shetar kumanggar dzau, naja ambitir mir\nAlu wu vir biku;\n\n4 Mir hyar bici ga li, mir lira shanggudi,\nWu sili gi Yesu;"
+    },
+    {
+        "id": 37,
+        "hymn_number": 37,
+        "title": "Iju Giya, Iju Giya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Iju giya, Iju giya, ayu gu,\n Ayu gu mji papata.\n\n2 Yesu Kristi, Yesu Kristi, bzir ginyi,\n Adziar ja wu dunya ku.\n\n3 Adar wu na, adar wu dladlaku na,\nJa ga mtu, gadabar mir.\n\n4 Ashilir ya, ashilir ya, adangwang,\nGa gunggur sili anung.\n\n5 Naya caca, naya caca, ai 'vung, \nNaya gwu ga usiangu."
+    },
+    {
+        "id": 38,
+        "hymn_number": 38,
+        "title": "Mthlagurmir, Yesu Kristi, Jiri",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Mthlagurmir Yesu Kristi, jiri,\nNaja 'nga mbani mir papatu. \nAziba wu tsia Shetar, dumi.\n\nchuros:\nAzigamu,, jilir mjii, \nKi mir wadi tsu \nArkira thlim gi Yesu Kristi,\n Mthlagur mji.\n\n2 Įjurya, kitia kadu,\nAziba wu tsia Shetar, dumi. \nDar da ngudifur kalilikur.\n\n3 Mwalda tsu adzugwa nggerdaja,\nGadabar Kristi Mthlagur mji,\nYesu na Bzir gi Iju jiri."
+    },
+    {
+        "id": 39,
+        "hymn_number": 39,
+        "title": "Yesu Kristi, Ptilur Dunya Ca",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ndir di Yesu nga nubwa, \nHur wu dladla giya ku;\nYesu Kristi, Yesu Kristi, \nNagu Ptilur dunya ca.\n\n2 Dunamakur ginyi ai, \nNaya ahivir su mai;\nYesu Kristi, Yesu Kristi,\n Nagu Ptilur dunya ca \n\n3 Kwo ni ngu wu furshina,\nNi ara hivir ndang mai; \nYesu Kristi, Yesu Kristi, \nNagu ngu ring wu dunya."
+    },
+    {
+        "id": 40,
+        "hymn_number": 40,
+        "title": "IjuAi",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ijuai,Iju ai, Iju ai kungku,\nKungku Iju ai,Iju ai kungku.\n\n2 Ayuja mir...\n\n3 Naja 'jau mir...\n\n4 Mir adlir ngvi...\n\n5 Ni atubi...\n\n6 Niyu laku...\n\n7 Dlir da, Iju...\n\n8 Bar da,Yesu...\n\n9 Barkar Iju.... Amin..."
+    },
+    {
+        "id": 41,
+        "hymn_number": 41,
+        "title": "Yesu Kristi Adziari Wu Dunya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Yesu Kristi adziari wu dunya,\nBarkar Iju, barkar Iju, barkar Iju,\n\n2 Adziar ja ki ja 'mbani mji ginda....\n\n3 Ahur ja boni nir mji papatu....\n\n4 Ki ja 'mbani mji ca ara biku.....\n\n5 Yesu Kristi naya ausia ngu...\n\n6 Naya 'gwu ga inda mji ginyi tsu.... \n\n7 Ga 'gwa ngudifaya ga inda 'di....\n\n8 Ga bar ya ki ya anggeri biku....\n\n9 Dar ya dunama ga nggeri Shetar\n\n10 Ki ya aiu sagidarya zarzar ....\n\n11 Ki mjirya ca 'zibu lagwur Iju\n\n12 Ga thlia misidagkur ginda tsu"
+    },
+    {
+        "id": 42,
+        "hymn_number": 42,
+        "title": "Azigamu Mjir Jiri",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Iju Mthlagu nga_yu mir jiri ja,\nAzigamu mji gi Mamadu ca;\nDabuamu 'ga jilir Matakam tsu;\n\nChorus:\nAzigamu mjir jiri,\nKi mir ahungguri jiri\nAnu Yesu, mdur jiri.\n\n2 Ngwandi Yesu,  ma mir ca atubi,\nNaja ara pcina bikurmir ca,\nKi mir alu ga inda wu Zarna.\n\n3 Dunya ara liba mir parang mai,\nKují ki mir ambursa di Yesu,\nDi ja 'ra fana mir ca alivu."
+    },
+    {
+        "id": 43,
+        "hymn_number": 43,
+        "title": "Zarzar Iju Ligu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Zarzar Iju ligu, ga ngar su caca;\nKwo su wu ngudifayu, asinirija.\n\n2 Zarzar Iju ligu, kwo wu vii kwuthlu\nNdigu wu vi paraku, akutiadarja.\n\n3 Zarzar Ijuligu, naja abar da;\nKi aiu su minagu anu mji caca."
+    },
+    {
+        "id": 44,
+        "hymn_number": 44,
+        "title": "Yesu, Yesu, Mdur Mbani Mji",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Mdu ku agwu lagwur mbu ara biku ginda,\nMdu ku ivir gwu ga nggeri sur  biku caca,\nKi ja angar labar arkira mdur mbani dunya,\nThlimngyi, jangu Yesu.\n\nChorus:\nYesu, Yesu, Mdur Mbani Mji;\nYesu, Yesu, Mdur Mbani Mji;\nYesu, Yesu, Mdur Mbani Mji\nAra mbani mir ca.\n\n2 Kwo mi di gu ara iu di dunamakur ginyi,\nAra citu mbani ngu ara biku ndang mai;\nSei ara Yesu ngu mdur tiwudu ira mji ca,\nJang di ga thlia mbu.\n\n3 Azigamu, ki nyi caca angar ndir giya ku.\nKi nyi agwu lagwur mbu ara Yesu Mthlagu;\nKuta Yesu izhingyi acitu ga kitia nyi,\nAra mbani nyi ja."
+    },
+    {
+        "id": 45,
+        "hymn_number": 45,
+        "title": "Kwo Bikurmir Kyengkyar Psitu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Kwo bikurmir kyengkyar psitu,\nYesu ara pcina nda.\nKWo bikurmir kyengkyar psitu,\nYesu ara pcina nda.\nNaja ayu mir papatu;\nKi ja kitia mir.\n\nChorus:\nKwo bikurmir kyengkyar psitu,\nKwo bikurmir kyengkyar psitu,\nYesu ara pcina nda,\nYesu ara pcina nda.\n\n2 Ki mir angar ndir gi Yesu,\nNaja ivir nga mir ca.\nKi'mir angar ndir gi Yesu,\nNaja ivir nga mir ca.\nKi mir ahya ga ngger biku\nGa lu udzungyi.\nKi mir angar ndir gi Yesu,\nKi mir angat ndir gi Yesu,\nNaja ivir nga mir ca.\nNaja ivir nga mir ca.\n\n3 Yesu ara pcina biku,\nGa bura dinga nda mai.\nYesu ara pcina biku,\nGa bura dinga nda mai.\nNaja asiku mir kungku,\nKi mir anggil mai,\nYesu ara pcina biku,\nYesu ara pcina biku,\nGa bura dinga nda mai\nGa bura dinga nda mai"
+    },
+    {
+        "id": 46,
+        "hymn_number": 46,
+        "title": "Minagkur Ai Ara Yu Mai",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Minagkur ai ara yu mai\nDi ja ra kitia da mai,\nWu biku di mji ga yia da.\n          Chorus                         Ni ga hu Wu mtagur biku.\nKWo  ni nga  ti ga tir mamci,\nTi giya 'ra huba da mai.\n\n2 Sei tubi, ga hunggur jiri,\nAnu Yesu, Bzir gi Iju,\nDi ga 'ra hya ga ngger Shetar.\n\n3 Ngudifayu aghubadari,\nNggeramu katsimur dunya,\nNaja ngu libamur Shetar.\n\n4 Mangki, mangki, Yesur Iju,\nKitia da, di barka ginyi,\nSur dunya aghubadari"
+    },
+    {
+        "id": 47,
+        "hymn_number": 47,
+        "title": "Kabartsini Biku ga Hya ara Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": " 1Kabartsin biku ga hya 'ra Yesu,\nNaja gwu ca mir ki mir alu;\nNaja ga hamtsinı mpiaja ga mir,\nMir alu udzur Yesu Mthlagu.\n\nChorus:\nMir alu . . mir alu . .\nUdzur Yesu mdur mbani mji ca.\nSei ki mir anggeri bikurmir caca,\nMir alu udzur Yesu Mthlagu.\n\n2 Yesu nga ra cina bikurmir caca;\nMir alu udzur Yesu Mthlagu.\nNaja 'ra kitia Mir  ara biku ca,\nMir alu udzur Yesu Mthlagu.\n\n3 Yesu Mthlagu naja ivir siku mir,\nWu Zarna ki mir tikum alu.\nNaja ivir milia ivir inda mir.\nMir alu udzur Yesu Mthlagu."
+    },
+    {
+        "id": 48,
+        "hymn_number": 48,
+        "title": "Mamci gi Yesu 'Punarkir",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": " 1 Mamci gi Yesu punarkir,\nGadabar bikur mji.\nHur anu ngyi ngudifagu,\nKi ja  ra pcina ngyi.\nKi ja ra pcina ngyi,\nKi ja ra pcina ngyi;\nHur anu ngyi ngudifagu,\nKi ja ra pcina ngyi.\n\n2 Bzir gi Iju adagi'iju,\nGa na ga sadaka.\nGadabar dunama ginda\nAcitu mpilia mji.\nAcitu mpilia mji,\nAcitu mpilia mji.\nGadabar dunama ginda\nAcitu mpilia mji.\n\n3 Ngudifamir apcinarkir\nWu mamci ginda na,\nKi mir adabu udzu ngyi,\nGa dlivu ngyi di na.\nGa dlivu ngyi di na,\nGa dlivu ngyi di na.\nKi mir adabu udzu ngyi,\nGa dlivu ngyi di na."
+    },
+    {
+        "id": 49,
+        "hymn_number": 49,
+        "title": "Minga Pcina Da Biku?",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Minga pcina da biku?\nSei dì mamci gi Yesu.\nMinga ir da mdu tsapu?\nSei di mamci gi Yesu.\n\nChorus:\nMamci gi mdur barka,\nApcinar da biku;\nGa ir da mdu tsapu,\nSei di mamci gi Yesu.\n\n2 Marngu lagwur mbani da?\nSei di mamci gi Yesu\nMarngu mpi ngu bilin ra?\nSei di mamci Yesu.\n\n3 Minga fwa da wu tsiaja?\nSei di mamci gi Yesu.\nMinga mdia sur Shetar ra?\nSei di mamci gi Yesu.\n\n4 Minga hur misidagkur?\nSei di mamci gi Yesu\nMinga mcaku minagkur?\nSei di mamci gi Yesu,"
+    },
+    {
+        "id": 50,
+        "hymn_number": 50,
+        "title": "Yesu ara Pcina Bikurmir Ca",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yesu ara pcina bikurmir ca aba,\nMa namir azibu Iju,\nGa bila kirwa ginda caca,\nYesu ara pcina bikurmir ca aba.\n\nChorus:\nPcinaba, pcinaba, pcinaba;\nMa namir 'zibu Yesu Mthlagu\nYesu mdur tiwudu ira mji,\nNaja ara pcina bikurmir ca aba\n\n2 Ngushar mama, ki mir 'zibu Yesu\nNaja mdur tiwudu ira mji\nMji odi ivir sa wu biku\nYesu ara pcina bikurmir ca aba\n\n3 Jilir mji ca wu dunya ku,\nMa namir azibu Yesu,\nYesu ara far mir adu Zarna\nYesu ara pcina bikurmir ca aba\n\n4 Lagwur tubi ai wu hu mai,\nSei latudi mir wu dunya ku \nJang di mir acitu ga tubi\nYesu ara pcina bikurmir ca aba"
+    },
+    {
+        "id": 51,
+        "hymn_number": 51,
+        "title": "Mdur silim, Jangu Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Mdur silim, jangu Yesu,\nBzir gi Iju, dunama,\nJa ga mpilia mji caca;\nHalleluya! Mdur Mbani mji!\n\n2 Ja ga hur bikur mji ca,\nIvu ngudifaja na\nKi ja kabartsini nda:\nHalleluya! Mdur Mbani mji!\n\n3 Mji ga mbia ngyi ar Wu na,\nIndar ja wu vi giya,\nNgwandi ja, \"Akuduri!\"\nHalleluya! Mdur Mbani mji!\n\n4 Naja ara shashili\nKi ja dlir mji ginda ca,\nGa ra far nda `du Zarna,\nHalleluya! Mdur Mbani mji!"
+    },
+    {
+        "id": 52,
+        "hymn_number": 52,
+        "title": "Kwuthlu ga Na atkir Gar Na",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Kwuthlu ga na arkir gar na,\nShashilga ca ga ghadiakir.\nKwuthlu anari wu fa na\nYesu ga inda izhingyi.\n\n2 Kwuthlu ga na, mdu ai mai.\nYesu ivir kidu Iju.\nKija fizau ndigu mamci\nIvir ziba ar ngwa Yesu.\n\n3 Kwuthlu ga na, mjir biku ca,\nNgu afunggur ngyi boni na;\nBa nu ashina abana,\nBikur mji ndigu kusa na.\n\n4 Kwuthlu ara sia kudu\nSatudi mjir dunya asha\nGa nggeri bikurnda caca,\nGa fia Yesu ga Mthlagu."
+    },
+    {
+        "id": 53,
+        "hymn_number": 53,
+        "title": "Mani Adingar Wu Dladlaku",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Mani adingar wu dladlaku,\nDi Yesu amturi adi,\nGadabar biku giya ca,\nJang ngudifayu amdzuri.\n\n2 Su minagu ai  ara yu mai,\nDi a acitu hur anu ngyi,\nKuji kiyu awavi mai,\nKil arkira mtu gi Yesu.\n\n3 Ambiar mji kiraja tsu,\nDi sur mba kir ishkidi\nDi mji ga thliya ngiyi di masu,\nCa gadabar di ja ayu mji\n\n4 Kwo sur dunya caca nigiya,\nAnkyina ngulur biku giya mai.\nMpiayu ca aga dunamanda,\nCa ni ara na ngiyi su ginda."
+    },
+    {
+        "id": 54,
+        "hymn_number": 54,
+        "title": "Yesu, ki ga sibia Da",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yesu, ki ga sibia da\nArbza wu dladlaku.\nVir pcina biku giya\nWu mamci ginyi ku.\nArbza wu dladlaku\nMji ga tsia Yesu;\nGadabar wu dumi na\nNiyu ara thlia mpi.\n\n2 Satudi ni adinga\nBoni ginyi ar wu,\nNgudifayu amdzuri,\nYesu, ni atubi.\n\n3. Wu dladlaku_gi ¥esu,\nNi 'ra fari ndang mai.\nKi gu abar da zarzar\nIvir iu thlir ginyi.\n\nArbza wu dladlaku tsu,\nNi  ara siku ngu,\nSei mpiayu akudu,\nZarna, jang di ayu."
+    },
+    {
+        "id": 55,
+        "hymn_number": 55,
+        "title": "Yesu, Wu Dladlaku Ginyi",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yesu, wu dladlaku ginyi\nGa ncar mji yumdukur,\nDi gu ga gha anu waye\nKa yu ga ludzu ngu.\n\n2 Yesu, wu dladlaku ginyi\nGa pahuna lagwu\nAnu mji ki nda 'thlia mbu\nAra bonir dunya.\n\n3 Yesu, wu dladlaku ginyi,\nJang apaktsini mji.\nKi mpa, aga hu ngudifu\nCaca ara kudu.\n\n4 Yesu, wu dladlaku ginyi\nIvir ntidu mji ca,\nKi nda adlivu ngu jiri,\nGa fia ngu Mthlagu."
+    },
+    {
+        "id": 56,
+        "hymn_number": 56,
+        "title": "Yesu Mdu Ngu aga Wurma",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yesu mdu ngu aga wurma, ki ga dinga da,\nLatur ciba mji ginyi tsu, ciba da akwa.\n\nChorus:\nYesu, Yesu, ngar ti giya ku;\nFwa da wu pamur mji ginyi,\nUsi, di barkang.\n\n2 Kija ngudifayu kyengkyar, gadabar biku,\nNi akidung ki ga pcina, wu mamci ginyi.\n\n3 Mbani da 'ra biku giya, ki angger1 ca,\nKi ga nyeni ngudifayu di minagukur.\n\n4 Fwa da Wu thlir ku ngu tsapu; dar da dunama,\nKi amcaku Wu minagkur, wu Ptilkur ginyi."
+    },
+    {
+        "id": 57,
+        "hymn_number": 57,
+        "title": "Vi Nagum Al adar Ngu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Vi nagum ai adar ngu,\nDi mji afari mai.\nUv'na di mji ga tsia Yesu,\nBzir gi Iju Mthlagu.\n\nAyu ja mjir dunya jiri,\nKi mir ayu ngyi tsu;\nGa mbursa di Yesu parang,\nGa iu su di ja ayu.\n\n2 Bondi Yesu asusu'ur\nJangu sur kudura;\nAnu mji ginda papatu,\nAhur ja danapu.\n\n3 Ahur ja boni tidibu,\nDi mji ga funggur ngyi,\nKija 'mnilia anu mji ca,\nLagwur ludzur Iju.\n\n4 Amma su dam ai akwa,\nDi Yesu ivir gwu,\nAbur ki mjir dunya tikum,\nAhur bonir mji dam.\n\n5 Mdu kula biku ai mai,\nKil Mthlagurmir izhingyi.\nKa citu pahuna 'nu mir\nLagwur udzur Iju."
+    },
+    {
+        "id": 58,
+        "hymn_number": 58,
+        "title": "Yesu ga Ndalna Mpiaja",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yesu ga ndalna mtu, mpiaja,\nAdar wu ja ga mtu,\nNaja ga thlia boni na\nAra yu, mdur bíku.\n\nAdar wu dladlaku, Bzir gi Iju ga mtu\nJa ga pcina biku giya caca.\nNayu, ni ambursa 'ga Yesu,\nJang di awadi zarzar bici.\n\n2 Gadabar akitiadarja,\nAnggiir ja adar wu.\nBiku ai ara ja mai,\nNgudifaja pirtu.\n\n3 Ma ni adinga suyer ku,\nNguditayu amdzu.\nNi adlungwa anu Yesu\nGa usia ngyi parang.\n\n4 Kwo ngudifayu amdzuri,\nNgul tsu ar kirayu;\nNi ahamtsini mpiayu,\nKi Yesu ahur ngyi."
+    },
+    {
+        "id": 59,
+        "hymn_number": 59,
+        "title": "AiGu di Nda ga Tsia Mthlagu?",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ai gu di nda ga tsia Mthlagu?\nAi gu di nda ga tsia Mthlagu?\n\nChorus:\nWayo-o-o! Kungku udzayu ca\natsidzu, Zamda, 'tsidzu;\nAi gu di nda ga tsia Mthlagu?\n\n2 Ai gu di nda na ngiyi mandaba?....\n\n3 Ai gu di nda funggur ngyi boni?...\n\n4 Ai gu di nda 'mpina ngyi wu hu?...\n\n5 Boni ku ahur ja gadabar mir.....\n\n6 Ai gu di ja ga ziba wu hu?\nAi gu di ja ziba wu hu?\n\nHalleluya! Usi anu Yesu\nMdur Mbani, Halleluya!\nAi gu di ja ga ziba wu hu?"
+    },
+    {
+        "id": 60,
+        "hymn_number": 60,
+        "title": "Asini Yu abur Yesu Ivir Inda aga Mpi",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Asini yu abur Yesu\nIvir inda aga mpi wu dunya.\nNaja ivir inda adagiiju,\nNaja ivir inda wu mpiayu tsu.\n\n2 Naja ga hya wu vir mtu na,\nGa inda ivu ngudifa mji ku\nAhungguri Jiri anu thlimngyi;\nNaja ivir inda Wu mpianda tsu.\n\n3 Naja ivir inda udzung,\nGa bar ngu satudi gu ivir bu,\nGa na ngu dunama ga zibu ngyi;\nNaja 'citu inda Wu mpiagu tsu.\n\n4 Usi, Yesu, di gu ga hya\nGa ncar ya lagwur ludzur Ijurya,\nNgudifaya ivir wadi kungku!\nNagu ivir inda wu mpiaya tsu."
+    },
+    {
+        "id": 61,
+        "hymn_number": 61,
+        "title": "Apidar Ja wu Hu, Mdur Mdur Mbani Dunya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Apidar ja wu hu, Mdur Mbani Dunya, \nAsikur ja bici, Yesu Mthlagu.\n\nAhyar ja wu hu ginda;  \nAcibar ja dawa ginda ca.  \nAhyar ja gadabar naja amdia mtu,  \nNaja Ptilur mjir Iju tikum kungku;  \nAhyar ja, aga mpi.   \nBarkar Iju, ahyar ja!\n\n2 Mjir siku hu ginda, Mdur Mbani dunya,  \nLang adzabur nda hu, Yesu Mthlagu.\n\n3 Mtu asibia ngyi mai, Mdur Mbani dunya,  \nAzibar ja wu hu, Yesu Mthlagu,  \n\n"
+    },
+    {
+        "id": 62,
+        "hymn_number": 62,
+        "title": "Yestu ra Hya Wu Vir Mtu Na",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yesu ga hya wu vif mtu na.\nKi dunya ca awadi.\nNaja ga ncar mir Wu dunya,ku\nAbur naja ga mdia mtu.\n\nChorus:\nNa Halleluya, Halleluya,\nNamu Halleluya.\nNa Halleluya, Halleluya,\nNamu Halleluya.\n\n2 Yesu ga hya wu vir mtu na;\nNaja ga bura thlia mpi.\nLatu na di hu ga pah'narkir,\nYesu ga bura hyadu.\n\n3 Yesu ga hya wu vir mtu na;\nKi mir ca adlivu ngyi\nGadabar di ja mpilia mir\nAra hivir nir mtu na\n\n4 Yesu ga hya wu vir mtu na;\nku mir acu anu mji.\nki mir atitilna labar ku\nki ca mji adlivu ngyi."
+    },
+    {
+        "id": 63,
+        "hymn_number": 63,
+        "title": "Kwutiamu Sur Kudura Ku",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Kwutiamu sur kud'ra ku;\nBzir gi Iju ga hya dam;\nAhyari ja wu vir mtu na\nAga mpi ngu bilin ja.\nKĩ mir`adlivu ngyi,\nDunama ara Yesu.\n\n2 Fwangyiamu Wu Ptilkur na,\nAiri ja sur kud'ra;\nFiangytamu ar pathla na,\nNaja ga fia kirwa ca.\nKimir adlivu ngyi,\nDunama ara Yesu.\n\n3 Ngaramu daha mji caca\nIvir dlivu Ptil Yesu;\nMdu angwara ja ai mai,\nAhur mir ja paraku.\nKi mir adlivu ngyi,\nDunama ara Yesu."
+    },
+    {
+        "id": 64,
+        "hymn_number": 64,
+        "title": "Halleluya, Ki Mir Adilvu Ngyi",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n1 Yesu ga ziba wu hu na,\nHalleluya, ki mir adlivu ngyi.\nki mir ca adlivu Yesu,\nHalleluya, ki mir adlivu ngyi.\nHamtsini fulang ga na,\nHalleluya, ki mir adlivu ngyi.\nNamu dunya! Namu adagiiju!\nHalleluya, ki mir ca adlivu ngyi.\n\n2 Yukur ginda ga mbani mir,\nHalleľuya, ki mir adlivu ngyi.\nNaja ga mdia Shetaryer ca,\nHalleluya, ki mir adlivu ngyi.\nNamir tsu ara thlia mpi,\nHalleluya, ki mir adlivu ngyi.\nGadabar di Yesu ga ir lagwu,\nHalleluya, ki mir ca adlivu ngyi.\n\n3 Kungku, mtu asibia mir mai,\nHalleluya, ki mir adlivu ngyi.\nNamir ara bura hyadu,\nHalleluya, ki mir adlivu ngyi.\nMisidagkur ara mir,\nHalleluya, ki mir adlivu ngyi.\nNamir mji cacadu, ki mir 'thlu na,\nHalleluya, ki mir ca adlivu ngyi.\n\n4 Usi, Yesu, Ptilur dunya,\nHalleluya, ki mir adlivu ngyi.\nNaja 'ga mpi kula kudu,\nHalleluya, ki mir adlivu ngyi.\nKungku hivir ai mai,\nHalleluya, ki mir adlivu ngyi.\nAthliari lagwur lu Zarna,\nHalleluya, ki mir ca adlivu ngyi."
+    },
+    {
+        "id": 65,
+        "hymn_number": 65,
+        "title": "Yo Mthlagurya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yo Mthlagurya Ku aga dunama,\nKi gu afwa ya ca wu Kristiankur.\nNaya ayu ga zibu talala,\nKi mji 'pa ptilkur ginyi ngu tsapu.\n\n2 Yo Mthlagurya, Ku aga minagkur,\nKi gu abar ya ga ngger bikurya\nKwo thla fati aga susukur tsu,\nKi ya puna suyer ku ngu dumi.\n\n3 Yo Mthlagurya, Ku aga yukur tsu\nKi gu abar ya Wu yukur ginyi.\nKi wavi ca aga gwu digalkur\nAba kungku, wu ngudifaya ca."
+    },
+    {
+        "id": 66,
+        "hymn_number": 66,
+        "title": "Iju Mthlagu, Latu Anari",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Iju Mthlagu, lata nari\nKi yu adinga ngu zarzar,\nKi ga bar da ki adinga,\nSu di ga yu.\n\n2 Iju Mthlagu, lata nari\nKiyu acu ndir ginyi ca,\nKi ga bar da ki adinga\nNdir di ga yu\n\n3 Iju Mthlagu, lata nari\nKi aiu thlir ginyi tsapu,\nKiga bar da ki aiu su;\nSu di ga yu."
+    },
+    {
+        "id": 67,
+        "hymn_number": 67,
+        "title": "Ki Mir Ahur Thlim gi Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ki mir ahur thlim gi Yesu,\nMa mir athlia gili;\nMa mir dinga thlim gi Yesu\nMisidagu anu mji.\n\nChorus:\nThlim Yesu, mir ayu, misidagu anumir\nThlim Yesu, mir ayu, misidagu anu mir\n\n2 Ma mir angar thlim gi Yesu,\nKadzang namir awadi,\nWu tsiaja namir ambu tsu,\nAra boni ba gili,\n\n3 Ma farmir caca akudu,\nDi mir ara du Zarna.\nNamir ca ara fal Yesu,\nMthlagur ptilyer, ivir na."
+    },
+    {
+        "id": 68,
+        "hymn_number": 68,
+        "title": "Yesu Ngu Minagu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yesu ngu minagu,\nMthlagur sur dunya caca,\nBzir gi lju, aga Bzir gi mdu,\nNi ayu ngu jiri,\nDi gu apcina da,\nJang ngudifayu awadi.\n\n2 Dunya ku minagu;\nVir paya, kwo kuburwu,\nMbilmbilyer ca aga psar mtsumtsu,\nYesu jang minagu,\nAngwara Su tikum\nD'Iju ga milia wu dunya.\n\n3 Bici ku ambil wang,\nHya ngu pitila tsu,\nShashilgayer tikum ngu adu;\nYesu amdia nda ca \nParakur Dunya ja,\nDi ja ambani mji caca\n\n4 Yesu, mdur mbani mji\nMthlagur sur dunya caca,\nBzir gi Iju,naga Bzir gi mdu,\nSili 'ga digalkur\nDlivu, ca niginyi \nKungku ba 'nu satu marye."
+    },
+    {
+        "id": 69,
+        "hymn_number": 69,
+        "title": "Iju ga Ncardari Sur Kudura Ginda",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 lju ga ncardari sut kudura ginda,\nDi ja ga dinga mjir dunya\nAhamtsinir ja bzir ginda di ja 'yu,\nKi ja adzia ga mbani nda.\n\nAfiar ja mpiayu wu misim ginda,\nAra boni aga hivir.\nWu yukur ginda ni ambunarkir,\nNgadifayu apidari;\nNgudifayu apidari.\n\n2 Barka ginda ai acibakir mai,\nNi ivir Cu di wadi tsu.\nK Wo Wu na gya nị ara dlivu ngyi,\nJiri naja mdur kitia mji.\n\n3 Ma satudi fa giya ara kudu\nNi ara  lu udzur Yesu\nGa inda aga ja  adagiiju,\nGa dlivu ngyi kaka mji ca."
+    },
+    {
+        "id": 70,
+        "hymn_number": 70,
+        "title": "Gwu Su Ngu Minagagu, Su Ngu Jiri",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Gwu su ngu minagagu, su ngu jiri;  \nParakú ’ga kwuthlur dunya ai;  \nZibu dumikur, nagu mdur kwuthlhu;  \nZibu minagkur, bu wu paraku;  \nGwu su ngu minagu, su ngu jiri.\n\n2 Dinga su ngu tsapu, su ngu jiri;  \nDingar su dumi ivir sana mji;  \nSa gu ska bu kaka mji dumi mai;  \nGwuba mji ku acu Ndir gi Iju;  \nDinga su ngu tsapu, su ngu jiri.\n\n3 Nubwa ndir minagu, ndir ngu jiri;  \nKyara mdu ivir mdzani ngudifu;  \nKi gu ashoda ga ra fwa barka;  \nNdir misidagu anu mji caca;  \nNubwa ndir minagagu, ndir ngu jiri.\n\n4 Gwu su ngu minagu, su ngu jiri;  \nGa bar mjir boni, kaka mji nggui;  \nGwuba mji , ku ga sa wu bikurnda,  \nGa fwa nda wu lagwur  Zibu Yesu,  \nGwu su ngu minagu, su ngu jiri.\n"
+    },
+    {
+        "id": 71,
+        "hymn_number": 71,
+        "title": "Yesu Ayu Ngusha Ginda",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Yesu ayu ngusha ginda,\nNgusha ca wu dunya ku:\nKengkyar ga mamzagu,\nMunggina ga pirtu tsu.\nYesu ayu ngusha ca wu dunya ku."
+    },
+    {
+        "id": 72,
+        "hymn_number": 72,
+        "title": "Mdu Na aga Barka Jiri",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Mdu na aga barka jiri,\nDi ja kula bubu\nWu suwanir mji dumi dumi,\nKwo inda lagwurnda.\n\n2 Wu 'vir indar mjir kurami,\nNaja inda tsu mai.\nKirwaver gi lju Mthlagu,\nNaja 'dinga parang.\n\n3 Naja 'papa wu ar mva dil,\nKa ya wu latari,\nThlali ginda aul tsu mai,\nSu ginda amcaku.\n\n4 Mji dumi ai abang mai,\nAnari nda su lang:\nNdigu babia di yamadu\nAtitilna pidum.\n\n5 Mji dumi acitu thlatu\nWu 'vir thla shere mai.\nMjir biku apaktsinikir\nKaka mjir jirkur mai.\n\n6 Lagwu nir mji ngu minagu,\nJang ju adzani;\nAmma lagwur mji ngu dumi\nAra sanakir ca."
+    },
+    {
+        "id": 73,
+        "hymn_number": 73,
+        "title": "Mwal Dam Ai Ndigu Yesu mai",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Alwal dam ara mir ndigu Yesu mai.\nAi mai, ai mai.\nMdu ai dam ndigu Yesu tsu mai,\nAi mai, ai mai.\n\nChorus:\nMa boni ai, naja 'sini,\nNaja ana mir dunama.\nMwal dam ara mir ndigu Yesu mai,\nAi mai, ai mai.\n\n2 Mwal ai tsu angwara Yesu mai\nMdu ai kula di ja ayu mai\n\n3 Kwo mdu tituku Yesu angger ya?..\nKwo naja mdur biku Yesu angger ya?"
+    },
+    {
+        "id": 74,
+        "hymn_number": 74,
+        "title": "Ndir gi Yesu, Misidagu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Mcakuri cindir anu mir ca\nNdir Yesu misidagu.\nKi mir akwutu minagkur\nNdir Yesu minagu.\nNaja ngu mdur mbani mir,\nNaja jangu adlir mir.\n\nChorus:\nNdir Yesu, Ndir gi Yesu,\nNdir gi Yesu, misidagu;\nNdir gi Yesu, Ndir gi Yesu.\nNdir ku misidagu.\n\n2 Yesu ayu mir papatu,\nNdir Yesu misidagu;\nKi mdur biku angar ndir ku,\nNdir Yesu minagu.\nNdir ku adar mir ca mpi,\nNaja ncar mir sur Iju."
+    },
+    {
+        "id": 75,
+        "hymn_number": 75,
+        "title": "Ndir gi lju, Ni Ayu Ngyi",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ndir gi Iju, ni ayu ngyi,\nAra ja ni awadi.\nSu ka mdia ndir ku kul ai,\nSur bar mdu akwa jiri.\nAsar' yu ga gwa wu boni,\nWu kwuthlu ni agwari,\nSur mpilia da dam ai mai,\nSei ara Ndir gi Yesu.\n\n2 Ndir gi Iju ni asibia,\nGa ra kiratsini tsu,\nNgudifayu ga na pirtu,\nNdir ku jang wadi giya.\nNubwamu ndir ku di hangkal,\nSa nyi ska mdzani ngyi mai;\nAbur di Yesu ga dlir mji\nGa na nda misidagkur.\n\n3 Ndir gi lju, ni adinga\nIvu ngudifayu ku;\nWu mpiayu sur liba da,\nJang ndir arkira Yesu.\nKwo bici di mtu ahur da,\nSatu na ni awadi,\nGadabar jirkur nir Zarna\nAi wu Ndir gi Iju."
+    },
+    {
+        "id": 76,
+        "hymn_number": 76,
+        "title": "Ciba Da Ndir gi Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Ciba da ndir gi Yesu,\nArkir su di ja iri\nSatudi Yesu ai wu dunya\nIvir bar mji caca.\nKi gu aciba ndir samsam,\nNdigu nir bzir kushu,\nGadabar di yu kakafu,\nKula dzani tsapu.\n\nChorus:\nCiba da ndir gi Yesu,\nCiba da ndir gi Yesu,\nCiba da ndir gi Yesu,\nNdir ku ngu misidagu,\n\n2 Ciba da ndir di hangkal,\nKi yu angar jiri;\nNdigu di Yesu, mdur mbani,\nGa pcina bikur mji caca.\nCiba da ndir ku zarzar,\nDi gu ska fari mai.\nNur da ndigu di mdur mbani\nGa susukwia mji caca.\n\n3 Ciba da ndir caca tsu,\nArkir mdur kitia mji,\nAra shilgu ba kasuwa,\nKwo su ku atu mji.\nCiba da ndit na  zarzar,\nSa gu ska ghuda mai.\nGadabar di ja angwara\nNdir ca di mji ivir cu."
+    },
+    {
+        "id": 77,
+        "hymn_number": 77,
+        "title": "Ni Ayu Ciba Ndir Ku",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ni ayu ciba ndir ku,\nArkir' Yesu Mthlagu.\nArkir' minagkur ginda,\nAbur di ja 'yu mji;\nNi ayu ciba ndir ku,\nNaja ngu ndir jiri,\nGa nyeni ngudifayu\nDi misidagukur.\n\nChorus:\nNi ayu ciba ndir ku,\nKil fa giya akudu,\nNi ara ciba zarzar\nArkir' Yesu Mthlagu.\n\n2 Niayu ciba ndir ku,\nNaja ngu ndir tsapu,\nKa mdia ndir dunya caca,\nDi mji gakwia cu,\nNi ayu ciba ndir ku,\nJangu ambanidari.\nJang di ayu ga ciba\nNdir ku anu ngu tsu.\n\n3 Ni ayu ciba ndir ku,\nAnu mji papatu.\nMji odi kula ngari\nArkir' Yesu Mthlagu.\nNi ayu ciba ndir ku,\nAbang ni awadi.\nNi ara cu ndir dam mai,\nKil ndir ku di acu."
+    },
+    {
+        "id": 78,
+        "hymn_number": 78,
+        "title": "Mi di Mir Acu anu Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Mi di mir 'cu anu Yesu,\nBzir Mdur fuk gi Iju\nkari ca nir biku,\nNir mir, mjir dunya ku.\nKwo ni nda sini Su mai,\nBoni di gu ga thlia;\nMdur jirkur, mdu ngu minagu,\nGa hur bikurmir ca.\n\n2 Wu latur mtu ginda na\nMdur Mbani mir ga nu,\n\"Tada, ga kabartsini nda,\nNanda nda sini mai.\"\nMa mir adzani su ku,\nMinagkur ka irkir,\nMdu ngu tsapu, mdu minagu,\nGa hur bikurmir ca.\n\n3 Bici aghadiakir tsu,\nDunya ga na kwuthlu;\nWaladiyer adagiiju,\nGa nggil kula kwutu ngyi.\nYo! Thlidlibu anu ya,\nAshir ginyi caca.\nAbar di mdu ngu minagu\nAhur bikurmir ra?\n\n4 Bonir su ca kubari,\nKatsala na ga mdia, \nAr lagwur tsisim gi Tada\nDi ja ivir inda\nYo! Thlidlibu anu ya\nDunamakur ginyi,\nMdu ngu minagu, katsala,\nYesu, Mdur Mbani mji."
+    },
+    {
+        "id": 79,
+        "hymn_number": 79,
+        "title": "Yesu, Nagu Mdur Bila Ntimahu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yesu, nagu mdur bila ntimahu,\nKi ga bila ya caca,\nMpina ya ar psar ngu amidagu,\nLiba,va 'lu imir mpi.\n Barkar Yesu, Barkar Yesu,\n Pwa ya wu cibu ginyi;\n Barkar Yesu, Barkar Yesu,\n Pwa ya wu cibu ginyi.\n\n2 Ki ga inda mwalurya, Mthlagurya,\nIvir siku lagwurya;\nSibia va ga nkani ya dagwami,\nGwuba va ma naya 'sa.\n Barkar Yesu, Barkar Yesu,\n Ki gu angar kidurya, \n Barkar Yesu, Barkar Yesu,\n Ki gu angar kidurya.\n\n3 Air gu alkawal, MIthlagu Yesu,\nKwo di naya mjir biku,\nDi tiwudu nagu ara dlir ya,\nGa pcina ngudifaya\n Barkar Yesu, Barkar Yesu,\n Ki va'tubi tsu kadu;\n Barkar Yesu, Barkar Yesu,\n Ki ya 'tubi tsu kadu.\n\n4 Naya gwu ga kwutia ngwagu, Yesu,\nKi ya 'papa ngu, Mthlagu.\nKil ara gu di minagkur ai,\nKil ara gu di ya 'mbu. \n Barkar Yesu, Barkar Yesu,\n Dlir ya wu cibu ginyi;\n Barkar Yesu, Barkar Yesu,\n Dlir ya wu cibu ginvi,"
+    },
+    {
+        "id": 80,
+        "hymn_number": 80,
+        "title": "Ni Ayu ga Kwutia Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "80 Ni ayu ga kwutia Yesu,\nBzir gi Īju ka yu da,\nNi ausia ngyi ga odi,\nNaja akitiadati.\n\nFwadamu wu lagwu ginda\nLagwur kitia mji sasa;\nNi ayu ga inda cipcu,\nBarkar Yesu M[thlaguda\n\n2 Ni ayu inda ga Yesu,\nKi angar ndir gindaver,\nKi athlia misidagkur.\nIvu ngudifayu tsu.\n\n3 Ni ayu ki angger biku,\nKu ayu ga mdzani da.\nSei minagkur, jang di ayu,\nWu thlim gi Yesu Kristi.\n\n4 Ma mpiayu ara kudu,\nNi ayu ga du Zarna\nGa inda zarzar 'ga Yesu,\nMwalur mjir dunya tikum."
+    },
+    {
+        "id": 81,
+        "hymn_number": 81,
+        "title": "Ni Akidung, Yesu Mthlagu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n1 akidung, Yesu Mthlagu,\nKi gu angar dahayu;\nWu kwuthlu ma na apida,\nFiada ba kudur Vii.\n\n2 Ashina di ga liba da\nNi ausia ngu, Yesu\nSu di asim, bada sur ha,\nBarka ginyi, auri yu.\n\n3 Ki ga kabartsini da tsu,\nAra biku giya ca.\n Mwaldayer ba mji di ayu,\nKi gu afwa nda barka ca.\n\n4 Yesu Mthlagu, ni bzir ginyi,\nKi ga bar da ivir hu;\nSarudi ni ara mtu tsu,\nki ga hur da adu zarna."
+    },
+    {
+        "id": 82,
+        "hymn_number": 82,
+        "title": "Ki Ayu Ngu, Mthlagu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n1 Ni ayu ngu, Mthlagu,ni ayu ngu;\nKi gu angar ndir ku, dir ivir cu.\nKuku ndir giya ndang,\nKi ayu ngu, Mthlagu,\nKi ayu ngu, ki ayu ngu.\n\n2 Ndang su wu dunva ku, ni ga zibu,\nKungku ni ivir gwu nagu Mthlagu.\nJangu ndir giya ku,\nKi ayu ngu, Mthlagu,\nKi ayu ngu, ki ayu ngu.\n\n3 Kwo di fa giya ku ara kudu,\nNdir na tsu ai wu ngudifayu.\nNdir giya zarzar ku:\nKi ayu ngu Mthlagu,\nKi ayu ngu, ki ayu ngu."
+    },
+    {
+        "id": 83,
+        "hymn_number": 83,
+        "title": "Athliari Yu Misidagkur",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Athliar yu misidagkur\nvir mnbursa 'ga Yesu,\nIvir dlir Alkawal ginda,\nIvir hunggur ngyi jiri.\n\nChorus:\nYesu, Yesu, ni ayu ngu,\nNi asibia ndir ginyi;\nKi gu ahur nguditayu,\nKija inda su ginyi.\n\n2 Ahungguri yu jiri tsu,\nAbur ambanidarja,\nIvir pcina ngudifayu,\nDi mamci di ja puna.\n\n3 Ambursari yu di yesu,\nNaja 'nkani thlir Shetar\nYesu ivir na da mpi tsi,\nJangu mpi kula kudu.\n\n4 Awadi yu, ivir mbursa\nAga gu, Yesu Mthlagu;\nNỉ asini nama 'ga gu,\nNagu licu, ba `nu mtu."
+    },
+    {
+        "id": 84,
+        "hymn_number": 84,
+        "title": "Niyu Adlungwa Anu Ngu Yes",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Niyu adlungwa anu ngu Yesu,\nGa ra usia ngu;\nGadabar minagkur ginyi zarzar\nYesu Mthlagu.\n\n2 Niyu agwu ki gu aliba da,\nWu lawu ginyi ku\nDunama tikum ai ara gu,\nYesu Mthlagu.\n\n3 Niyu ambursa di gu, Mthlaguda,\nsa gu ska ngger da mai.\nKi gu afwa da wu ptilkur ginyi na,\nYesu Mthlagu"
+    },
+    {
+        "id": 85,
+        "hymn_number": 85,
+        "title": "Ki Ajau Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Niyu mdu aga boni wu dunya,\nBoni ka mdia da, ma ni 'zhida;\nNi ara kidu ki Yesu 'bar da,\nGadabar di ja ayudari,\n\nChorus:\nKi ajau Yesu, ki ajau Yesu,\nKi ja 'bar da wu boni giya,\nKi ajau Yesu, Ki ajau Yesu,\nMdu ka ra bar da, jangu Yesu.\n\n2 Bici ai gili asi ga thlia da,\nNaja acitu ga mdia da mai.\nGadabar di Yesu ga kitia da,\nNaja mwalda 'ga mdur mbani da.\n\n3 Ngudifayu mdzumdzu ara biku,\nNi ayu ki yu ana cipcu;\nMa ni aludzur Yesu tsu kadu,\nNaja 'ra pcina biku giya"
+    },
+    {
+        "id": 86,
+        "hymn_number": 86,
+        "title": "Nagu Mdur Duwa Mpiayu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Nagu mdur duwa mpiayu,\nNagu ngu Mthlagur mpi ca,\nWu mithlipikur giya ku,\nBar da gil Yesu Mthlagu.\n\nChorus:\nBar da gi! Bar da gil\nLiba da, liba da.\nGadabar biku nit dunya,\nBar da gi! Yesu Mthlagu.\n\n2 Ai ga digalkur tsu mai,\nKwo ga gwu sur dunya mai;\nNi awadi kwo wu boni,\nMa gu udzu da, Yesu.\n\n3 Ma shili ginyi anari,\nFar ya ca adu, Yesu.\nFar ya aliva gi Tada,\nLiba ya alu Zarna."
+    },
+    {
+        "id": 87,
+        "hymn_number": 87,
+        "title": "Yesu, Ni Ayu Ngu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n87 Yesu, ni ayu ngu nagu ngu mwalda,] \nGadabar mwalkur ku, ni angger biku.\nNagu nga mbani da ara biku giya caca,\nyesu, ni ayu ngu angwara suyer ca,\n\n2 Ni ayu  ngu gadabar di gu ayu da,\nGa nkyina biku giya ar wu dladlaku.\nBoni ginyi caca na, kiyu adingar nda;\nYesu, ni ayu ngu angwara suyer ca.\n\n3 Wu fa giya caca ni ausia ngu,\nGa bar mji wu dunya kinda azibu ngu.\nKi yu ancar lagwu ginyi anu mji papatu\nKi nda ayu ngu, Mthlagu, angwara suyer ca"
+    },
+    {
+        "id": 88,
+        "hymn_number": 88,
+        "title": "Namir Ausia yesu,",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n\n88\n\n1 Namir ausia Yesu,\nNaja abar mir zarzar;\nMir acitu lagwur lju,\nMa ja abu udzur mir.\nMa mir 'nggeri kidu Iju,\nJang dzaukur athlia mir;\nZarzar Shetar ivir bubu,'\nNaja 'warkir anu mir.\n\n2 Ma mdu abu lagwur Shetar,\nSasa wu biku ginda.\nShetar ambar ngyi ga mafa,\nGili ginda amcaku.\nMa naja ashina ngwaja,\nGa tubi anu yesu-\nyesu ara kitia ngyi,\nNaja ara mpilia ngyi.\n\n3 Yesu Kristi, Bzir gi lju,\nNaya adlungwa anung;\nnagu ara ngari ndir ya,\nMa ya kidu wu thlimang.\nAra biku naya 'sari,\nSherer mtu ambar ya ndang;\nMturya na nagu ga huri,\nNagu mwal, kadzang, kadzang."
+    },
+    {
+        "id": 89,
+        "hymn_number": 89,
+        "title": "Ni Acim Ngu Yesu Mthlagu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "89 Ni Acim Ngu Yesu Mthlagu\n1 Ni acim ngu Yesu Mthlagu\nGadabar ni mdur biku,\nNgudifayu ngu kengkyar tsu,\nMisidagkur ai mai,\nNi acin ki mamci ginyi\nApcina ngudifayu.\nMamci ginyi ka punarkir\nIvir pcina mjir biku.\n\n2 Ni acim ngu, Yesu Althlagu\nGadabar ni mithlipi;\nNi mdur larmta Wu dunya Ku,\nDi ki giya kul' ai.\nNi acim yukur gi Yesu\nKi ja liba da parang,\nKi ja iiba da wu lagwu,\nGa mcaku da dunama.\n\n3 Ni acim ngu, Y'esu Mthlagu,\nki ma inda mwal jiri;\nGa tsirpia ngudifayu,\nIvir sizu da parang.\nNi acim mwalkur gi yesu,\nKi ja angar ti giya,\nMa tir silim athlia da,\nKi ja pili anu da.\n\n4 Ni acim ngu, Yesu Mthlagu,\nAyu yu ki ma akubu\nWu ki ginyi adu Zarna,\nUdzur iju Mthlagurmir.\nNaya kaka ngushar mama,\nKu di gu ga mbani nda,\nKi ya asia fal thlimungu,\nYesu Mthlagu, mdur mbani."
+    },
+    {
+        "id": 90,
+        "hymn_number": 90,
+        "title": "Nigiya, Mpiayu Ara Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "90 Nigiya, Mpiayu Ara Yesu\n\n1 Nigiya, mpiayu ara Yesu;\nAmturi ja adar wu na,\nGa kabartsini da biku,\nYesu, Yesu.\n\n2 Misidagkur gıya ara Yesu;\nMamci ginda ga pcina da.\nBiku giya tsu ga kudu;\nYesu, Yesu\n\n3 Ki yu ahur thlim gi Yesu;\nMdur mbani da aga mwalda;\nKi ma inda aga gu,\nYesu, Yesu."
+    },
+    {
+        "id": 91,
+        "hymn_number": 91,
+        "title": "Wangu Kula Biku Ndang?",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "91\n\n1 Wang kula biku ndang wu dunya ku?\nYesu Bzir g'Iju, jang kula biku.\nMpi kula kudu jang ara wa ndang?\nMpi kula kudu, jang ara Iju.\n\n2 Wang ga Bzir g'Iju ndang di mir ngari?\nYesu ngu Kristi jang ga Bzir g'Iju.\nAbar di mir athlia mpi kula kudu?\nSei ngar ndir g'Iju ga zibu kalkal.\n\n3 Wang ayu ga du ndang ira Yesu?\nSei mji ka dzaniba jirkur ba yukur.\nDumikur Shetar ndang ga sana da,\nNi tsu ayu mdurkikur ginda mai.\n\n4 Jirkur ba yukur jang acitu ya?\nSei ki ga dabia nda aga mbursa.\nAbar di mir mbursa ga Yesu ra?\nSei hungguri Ca Su anu Iju."
+    },
+    {
+        "id": 92,
+        "hymn_number": 92,
+        "title": "Ku Labar Giya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "92\n\n1 Yesu ngu mwalda, barkar iju,\nNi ivir hunggur jiri anu ngyi;\nMdur mbani dunya, Bzir gi lju,\nMamci ginda apcinadari.\n\nChorus:\nKu labar giya, na giya tSu,\nGunggur ngyi sili, zarzar bici;\nKu labar giya, na giya tsu,\nGunggur ngyi sili zarzar bic\n\n2 misidagu angwara su ca,\nDi ivir thlia mpi ara Yesu.\nParakur dunya, Bzir gi Iju,\nGadabar naja, n1 awadi.\n\n3 Misidagu angwara su ca,\nMa ni ivir mbursa di Yesu,\nGa zibu minagkur ginda tsu;\nKadzang Yesu ambanidari."
+    },
+    {
+        "id": 93,
+        "hymn_number": 93,
+        "title": "Iju Mthlagu Mdur Bila Da",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "93 Iju Mthlagu mdur bila da;\n1 Iju mthlagu mdur bila da;                                                             Ni atukur su mai.\nNaja 'liba da 'lu ivir\nPsar di imi adi.\n\n2 Mpiayu naja ambani,\nGa bar da, ki abu\nWu lagwu ginda minagu,\nDi barkar thlimngyi tsu.\n3 Kadzang, Kwo di yu ivir bu\n Wu Kwuthlu zirm nir mtu,\n Dumikur ni ahivir mai, \n Di ngu udzu da.\n4 Nagu ga milia da 'vir sim \nAr lai dawa giya. \nKirayu ga bisia di mal,\nNcela giya 'nyu cur.\n5 Minagkur aga yumdukur,\nZarzar azibu da,\nWu ki gi Iju Mthlaguda,\nDi yu 'ra inda 'Kwa. "
+    },
+    {
+        "id": 94,
+        "hymn_number": 94,
+        "title": "Ciba Barka Ginyi",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "94 Ciba Barka Ginyi\n\n1 Satudi ga dinga boni ginyi ca,\nGa nu abur dunama ginyi aptu,\nKi ga baditsini ciba barkayer,\nDi Iju ga na ngu ca kula wunu.\n\nChorus:\nCiba barka di Iju ga nang,\nGa dinga su di ga fari ndang;\nAbur Iju, mdu ka yu ngu ndang,\nIvir siku abur ki ga usia ngyi\n\n2 Satudi ga dinga abur mji nagum,\nAga uu odi ku angwara gu,\nKuji ki ga ciba barka ka ra gu,\nDi uur dunya 'citu ga dilba mai.\n\n3 Satudi ga nubwa abur naga yu\nGa ra zibu Yesu ba 'nu mtu ginyi\nCiba barka ca ka mdia su papatu,\nAbur di Yesu jang ivir bila ngu,\n\n3 Satudi ga nubwa abur naga yu\nGa ra zibu Yesu ba 'nu mtu ginyi,\nCiba barka ca ka mdia su papatu,\nAbur di Yesu jang ivir bila ngu,"
+    },
+    {
+        "id": 95,
+        "hymn_number": 95,
+        "title": "Misidagu Angwara Ca",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n1 Misidagu angwara ca,\nBici di yu acadubari.\nKi yu ahungguri jiri,\nAnu Yesu, Bzir gi Iju,\n\nChorus:\nMinagu bici na,\nDi Yesu apcinadari;\nGa kabartsini da biku,\nVi awadi zarzar bici;\nMinagu, bici na,\nDi Yesu apcinadari.\n\n2 Ja ga hamtsini mpiaja,\nGa nkyina ngul biku giya;\nAdar wu na, amturi Ja,\nKadzang naja ayudari.\n\n3 Ni atubi, ni ambursa,\nMamci ginda ga mbani da,\nApcinar ja ngudifayu,\nJang di afia ngyi Mthlagu,\n\n4 Usi, usi, Bzir gi Iju,\nNgudifayu apidari.\nNi azibu Yesu parang,\nGadabar ayudarija."
+    },
+    {
+        "id": 96,
+        "hymn_number": 96,
+        "title": "Mdur Mbani Mji,Yesu, Bzir gi Iju",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n1 \nMdur mbani mji, Yesu, Bzir gi Iju,\nIju nga yia Bzir ginda nir wudaja,\nMir mai alivu ki ia ra mbani mirca\n\nHuramu wu dladlaku 'dar Wivanvi\nWu dladlaku ngu tsia Bzir gi Iju,\nMtu ginda tsu jang ara mbani mi ca\n\n2 Nabaira da, naga ra mbani mir ya?\nMir 'ngger shetar, di mir ali ga tubi\nJilir mji ai di ja 'ra ngerri ndang mai.\n\n3 Ma mir anu di mir azimtu shetar,\nDaliva ginda ara fanya mir ca,\nKumanggarkur ginda ba kilado\n\n4 Wang ayu mafakur anu shetar?\nMthlagurmir Yesu Bzir gi Iju,\nNaja ara thla shere anu dunya."
+    },
+    {
+        "id": 97,
+        "hymn_number": 97,
+        "title": "Huri Mpiayu, Yesu Mthlagu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Huri mpiayu, Yesu Mthlagu,\nKi gu aiu thlir ginyi diri.\nKi ga hur dunama giya tsu,\nKi ja aiu su di gu ayu tsu,\nKi ja aiu su di ga yu.\n\n2 Fari tsiayu tsu, Mthlaguda,\nKi nda aiu thlir ginyi ngu tsapu.\nHuri hiayu, ki nda abu\nIvir bar mji caca wu dunya ku,\nIvir bar mji wu dunva ku.\n\n3 Huri dahayu tsu, Mthlaguda,\nGadabar ki adlivu ngu tsu.\nHuri myayu, ki ja acu\nNdir ginyi ku ngu misidagu,\nNdir ginyi ngu misidagu.\n\n4 Fari su giya ca, Mthlaguda,\nNi apia nda ca adangwa ngu.\nHur da, gadabar udir ginyi,\nKi mji caca azibu ngu, Mthlagu,\nKi mji caca azibu ngu."
+    },
+    {
+        "id": 98,
+        "hymn_number": 98,
+        "title": "Ki Mir Ahya ga Bu aga Yesu Mthlagu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ki Mir ahya ga bu aga Yesu Mthlagu\nGa ra iu thlir ku di ja ayu.\nMa mir 'mbursa di ja,\nNaja 'ra bar mir ca,\nGa liba mir wu lagwu ginda.\n\nMbusa di ja, ga ra iu thlir ginda,\nJang ara thlia mir barka,\nIvir mbursa di ja.\n\n2 Kwo di boni ai, ki mir asusuri,\nMji gi Yesu ahivir su mai.\nIvir bu 'ga Mthlagu,\nMir amdia suyer ku,\nDi mir 'mbursa di ja zarzar vi.\n\n3 Wudu ki gi lju, ivir inda ai,\nDi Yesu ga milia anu mji,\nAra du mir 'ga ja,\nAra thlia mir barka,\nGadabar di mir 'mbursa di ja."
+    },
+    {
+        "id": 99,
+        "hymn_number": 99,
+        "title": "Ngari, Yesu Ivir Nga Mir",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ngari, Yesu ivir nga mir\n\"Wangu ara iu thlir ra?\",\nFa ga nari, mdu ivir jau,\n\"Wanga ra thlu uhi ra?\"\nNaja ivir nga ngu jiri,\nBashikur digal ai.\nWangu ara shoda ngyi ra?\n'Mthlagu, ni amai wu thlir.\"\n\n2 Ma ga citu mai alarmta,\nWu ii ngu pidum mai;\nMdur giwa tsu ai udzung,\nKi ga bar nginyi kwo ivu\nMa gu thlalawa wu na mai,\nKwo wu cu ndir gi Iju\nKi gu anu abur, \"Yesu\nAmturi ga bikurmir.\"\n\n3 Gadabar di mji ivir sa\nDi Yesu anga ngu tsu,\nDi gu ska shoda anu ngyi;\n\"Thlir ka 'i nigiya mai.\"\nKija thlir ku di ja na ngu;\nKi gu aiu di wadi.\nShoda ngyi, ma ja anga ngu,\n\"Yesu, ki ga fwa da 'kwa.\""
+    },
+    {
+        "id": 100,
+        "hymn_number": 100,
+        "title": "Airi Ma Alkawal aga Gu, Mthlaguda",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Airi ma alkawal aga gu, Mthlaguda,\nAbur ki yu azibu lagwu ginyi parang.\nYesu ma naga bar da wu lagwu ginyi ku,\nNi ara nggeri ndang mai, ma nagu udzu da\n\n2 Ki ỳu angar ndir ginyi ivu ngudifayu,\nGa zibu su ngu jiri ga ngger su ngu dumi,\nKwo Shetar ambitia da ga iu dumikur tsu,\nZarzar, Yesu, ga inda Mthlagur ndudifayu.\n\n3 Airi gu alkawal aga mji ginyi tsu,\nAbur naga ra far nda, ga ra mai alivu;\nBar da ki yu asibia alkawal giya ku,\nAbang nama 'ra inda aga gu, Mthlaguda."
+    },
+    {
+        "id": 101,
+        "hymn_number": 101,
+        "title": "Yesu Bzir gi Iju Ai Ndigu Likita",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 yesu, Bzir gi Iju ai\nNaja ndigu likita.\nGadabar biku giya tsu,\nApcinar ja anu da.\n\nChorus:\nBiku giya apcinarkir,\nBarka ginda amburi yu,\nMwalda ngu misidagu,\nYesu, barkar Yesu.\n\n2 Ma mdu inda aga biku,\nJangu ndigu kulangga.\nGadabar biku ginda na\nAmdzani ngudifaja.\n\n3 Thlim gi Yesu misidagu,\nlang angwara thlim caca.\nGadabar thlim Yesu ai,\nHivir tsu ai ndang mai."
+    },
+    {
+        "id": 102,
+        "hymn_number": 102,
+        "title": "Hya  Ja! Ga Iu  Thlir gi Iju",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Hya ja! ga iu thlir gi Iju\nIu su ca di 'hungguri;\nLagwu di Yesu zibu,\nKuji ki mir azibu tsu\n\n2 Mai ja! di bici tsu ai,\nKwuthlu jang ara na kadu.\nIu thlir ginda ki ga nggeri mai\nNaga ra thlia barkar Iju\n\n3 Mji ivir mtu tsu wu kwuthlu,\nKula ngar ndir arkir' Yesu.\nMai gi! aga paraku ginyi,\nKi mjir dunya athlia mbu.\n\n4 Cu ndir g'Iju  di ntsinsilkur,\nGa ra kidu Iju parang.\nKi nda angar di misidagukur\nGa thia ptilkur gi Iju.\n\n5 Iu thlir ginyi aga wadi\nDi ga ra thlia barkar Iju\nNagu ara ngar ndir ginda na,\n\"Ni ara shili ga dlir ngu.\""
+    },
+    {
+        "id": 103,
+        "hymn_number": 103,
+        "title": "Parakur Iju Awuri",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "103\n\n1 Parakur Iju awuri\nWu vi kwuthlur dunya ca.\nDi minagkur di ja nga mir.\n\"Azigamu, zibu da!\"\n\nChorus:\nYesu ngu parakur dunya,\nNdur liba mji papatu,\nKi paraku ginyi ambil\nIvu' ngudifaya ku.\n\n2 Satudi boni ahyari,\nNgudifaya kengkyar ca.\nSatu na ki ya dingari\nBoni ginyi adar wu.\n\n3 Kwo di Shetar ambitir ya\nAlu wu vir biku tsu,\nParaku ginyi 'ra ncar ya\nLagwur gwu misidagkur."
+    },
+    {
+        "id": 104,
+        "hymn_number": 104,
+        "title": "Nagu Acitu Ya?",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n1 Ngwandi Mthlagu, \"Nagu acitu\nGa ra hur lagwu giya;\nKwo di mji ca ara ngger ngu,\nGa funggur ngu boni ya?\"\n\nI, ni acitu, niyu bzir ginyi,\nKi ga bar da ki apapa ngu;\nParaku ginyi ara liba da\nAludzur ngu, ki yu aui thlir ginyi.\n\n2 Ngwandi Mthlagu, \"Nagu acitu\nGa ra hur wu dladlaku;\nGa ra zibu da wu boni\nGa susu'ur ba 'nu mtu ya?\"\n\n3 \"Naga citu ga dingari \nMa mdu 'ir ngu su dumi,\nAbur naja bzir gi Iju,\nKi ga kabartsini ngyi ya?\"\n\n4 Ngwandi Mthlagu, \"Nagu acitu\nSatudi mtu ahur ngu,\nGa ra hamtsini mpiagu,\nGa mbursa di nayu ya?\""
+    },
+    {
+        "id": 105,
+        "hymn_number": 105,
+        "title": "Ntimahur Mthlagu ga Gwa Cibu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ntimahur Mthlagu ga gwa cibu,\nAcibadarja ca.\nUlari ja pathlu kula ai,\nAsari ja wu lagwu.\nAnggeri ja ivi ngu minagu,\nGa bubu wu mtagu aga wu kwuthlu,\nGa bubu wu mtagu aga wu kwuthlu.\n\n2 Kija, Mthlagu, ntimahu ginyi,\nKuji ki nda acitu ngu.\nAmma, ngwandi Mthlagu, ni inda mai,\nAra gwu yu ntimahu ku.\nKwo pidum wu mtagu, ko adu ngu,\nAmai yu ra gwugwu ntimahu giya\nAmai yu ra gwugwu ntimahu giya\n\n3 Ase! boni odi wu lagwu,\nGa uia Mthlagu ivir bu,\nAmma ga ja shili aga wadi,\nIvir hu ntimahuginda.\nNgaramu, mwaldayer, ki mir awadi!\nUlar yu ntimahu ka sa ara yu,\nUlar yu ntimahu ka sa ara yu.\n\n\n\n"
+    },
+    {
+        "id": 106,
+        "hymn_number": 106,
+        "title": "Ngwandi lju Ki Mir Ahya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "106\n1 Ngwandi Iju ki mir ahya,\nKi mir angger sur biku ca,\nKi mir adabu caca.\n\n2 Ma mir 'ngger sur biku tsu,\nYesu 'ra far mir adu,\nKi mir adabu caca.\n\n3 Azigamu. mjir jiri,\nNa mdu anga Yesu tsu,\nKi ja 'ngger sur biku ca.\n\n4 Ki mir ahunggur jiri,\nAnu Yesu mdur jiri,\nKi ja ambani mir ca.\n\n5 Ki mir atubi, ngusha,\nKi mir agunggur sili,\nAnu Yesu Mthlagur mji."
+    },
+    {
+        "id": 107,
+        "hymn_number": 107,
+        "title": "Ki Apapa Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "107\n\n1 Ni nga kwia nubwa abur\nKi apapa Yesu.\nKwo di lagwu dzau kakamtu,\nKi apapa Yesu.\n\nChorus:\n'Papa Yesu zarzar vi,\nIvu, kwo wu pamur mji,\nJangu di ayu jiri,\nKi apapa Yesu.\n\n2 Ma sur dunya ankani da\nIvir papa Yesu,\nNi ayu ki ya ngger nda,\nKi apapa Ýesu.\n\n3 Iju ga milia da lagwu\nKi apapa Yesu.\nDunama ginda 'ra bar da\nKi apapa Yesu.\n\n\n4 Ha ba nu bicir mtu giya,\nKi apapa Yesu.\nSei di yu akwutia ngwaja,\nKi apapa Yesu."
+    },
+    {
+        "id": 108,
+        "hymn_number": 108,
+        "title": "Gwubamu Mji Sasa",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Mji odi ivir sa wu dumikurnda,\nMji nagum ivir mtu tsu wu biku.\nIju ivir nur mir, ki mir 'dinga nda,\nKi mir akidu nda ki nda 'tubi.\n\n2 Kwo mji ka mai ra su, ga ngger sur Iju,\nTsu Iju ivir siku mji ginda;\nKidu nda di hangkal, di misidagkur,\nNur nda abur Yesu tsu ayu nda.\n\n3 Ivu ngudifa mji, kwo di nda sasa,\nKirnda, aga mjirnda, nanda ayu,\nKi gu acu samsam, ivir nur nda ca,\nAbur kil Yesu jang mdur mbani mji."
+    },
+    {
+        "id": 109,
+        "hymn_number": 109,
+        "title": "Iramu Paraku Anu Mji Caca",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Mjir Yesu 'ga paraku\nKu ambil adangwa mji;\nMa mir iu su ngu kalkal,\nNamir sagida jiri.\n\nChorus:\nIramu paraku, anu mji caca;\nNamir ancar lagwu ngu aludzu ngyi;\nWaye anga jil ginda\nGa gwa wu Ptilkur g'lju.\n\n2 Ma mir alarmta pidum,\nKwo di mir inda ivu,\nNdir anu mji di hangkal,\nKi nda ana mjir zibu.\n\n3 Yesu ayu ki mir ca\nAhukyu pitilur mir,\nNdigu nkwai ntsintsil ntifu,\nSa paraku asi aptu.\n\n4 Kungku mji odi sasa\nWu kwuthlu ngu zirm.nir mtu;\nMa pitilar mir ambil,\nAra ncar nda lagwur mbu."
+    },
+    {
+        "id": 110,
+        "hymn_number": 110,
+        "title": "Angari Yu Daha Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Angari yu daha Yesu,\nAngari yu daha Yesu,\nAngari yu daha Yesu,\nAbur, \"Hya gi! ga ra zibu da\"\n\nChorus:\nNgwandi yu ni azibu ngyi,\nNgwandi yu ni azibu ngyi,\nNgwandi yu ni azibu ngyi,\nNi azibu Yesu zarzar vi,\n\n2 Ni azibu ngyi wu birni....\nNi azibu Yesu zarzar vi.....\n\n3 Ni azibu ngyi wu mtagu..\nNi azibu Yesu zarzar Vi.....\n\n4 Ni azibu ngyi wu bici....\nNi azibu Yesu zarzar vi....\n\n5 Ni azibu ngyi wu kwuthlu....\nNi azibu Yesu zarzar Vi."
+    },
+    {
+        "id": 111,
+        "hymn_number": 111,
+        "title": "Jilirya Anggerdari",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n1 Jilirya anggerdari,\nDida tsu 'nggerdari,\nJang di Yesu ahuri.\n\nYesu ngu Dirmir,naja nga zirhali\nGa dzugwa dlir mir.\n\n2 Zamdayer anggerdari,\nNgwamdayer anggerdari,\nJang di Yesu ahuri.\n\n3 Wang amtu ara wu?\nMdu ngu ayu mir na;\nNaja ngu Yesu na"
+    },
+    {
+        "id": 112,
+        "hymn_number": 112,
+        "title": "Thlatu ga Mpa Shetar",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Thlatu ga mpa Shetar,\nMa ja dziba ngu,\nMa ga kwia ngger biku,\nShetar ara wi.\nHur katsalakur tsu,\nGa mpa 'ladangwa;\nMa ga kwutu Yesu,\nNaja aliba ngu.\n\nChorus:\nKi ga jau Mthlagu,\nKija na ngu dunama;\nAyu ja ki ja bar ngu,\nNaja alibu ngu\n\n2 Mwalkur nir mji dumi,\nBa ndir nda cu;\nCa ki gu anggeri,\nHur thlim gi Yesu.\nGa iu su di hangkal,\nGa ncar jirkur tsu.\nMa ga kwutu Yesu,\nNaja aliba ngu. \n\n3 Mdu ngu ivir mdia su,\nIju nga dlivu,\nMa mbursa ara mdu,\nNaja acitu.\nDunama 'ra mcaku,\nDi barkar Mthlagu,\nMa ga kwutu Yesu,\nNaja aliba ngu."
+    },
+    {
+        "id": 113,
+        "hymn_number": 113,
+        "title": "Thlatu!  Thlatu ga Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Thlatu! thlatu ga Yesu,\nNanyi soja ginda,\nHamtsini alam ginda,\nKi ja sa 'ra nyi mai.\nHuramu katsalakur,\nNaja ara liba mir;\nKil dawa ca amdiakir,\nDi Yesu jang Mthlagu.\n\n2 Thlatu! thlatu ga Yesu,\nNdir ginda mir anga;\nThlatu ga mpa dumikur,\nWu dunya ginda ku.\nNanyi, mji shili caca,\nMahidi, kaka tawi;\nHuramu katsalakur,\nGa mbursa di Yesu.\n\n3 Thlatu! thlatu ga Yesu,\nWu dunama ginda;\nKa ngwara suver caca,\nNaga ra mdia su ca.\nNdiryer gi Yesu Mthlagu,\nAga kidu Ijurnyi,\nAbar mir satu marye,\nNanda 'ra ptu ndang mai."
+    },
+    {
+        "id": 114,
+        "hymn_number": 114,
+        "title": "Satudi Ngudifu Apidari",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Satudi ngudifu apidari\nDi misidagukur,\nKiga dinga kuvangu ga bar ngyi,\nKi ja 'wadi.\n\n2 Satudi uhi ginyi anari,\nDi sursim adlari,\nKi gu adlinga Iju, aga Zamngu\nKi ga ntar nda.\n\n3 Satudi dunama ginyi ai,\nThlir ginyi jang kiskai,\nKi gu abar mji ku kula dunama\nWu thlirnda tsu.\n\n4 Ki ga ntikia barka ginyi zarzar\nAnu zamgnguyer ca,\nIvir iu su tsapu anu Iju,\nNaja udzung."
+    },
+    {
+        "id": 115,
+        "hymn_number": 115,
+        "title": "Ivi Misidagu Ai Udzur Iju",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ivi misidagu ai\n Udzur Iju Mthlagu.\nIvi di boni kul' ai\nUdzur Iju Mthlagu.\n\nChorus:\nBarkar Yesu, Mdur Mbani\nKa hya ara Iju;\nHur da aliva ginyi,\nUdzur Iju Mthlagu.\n\n2 Ivir psubaghuda ai\nIvi Iju Mthlagu,\nIvi di bíku kul' ai\nUdzur Iju Mthlagu.\n\n3 Ivir mpiliaudzu ai\nUdzur Iju Mthlagu; \nIvi di mir agwa ra li\nUdzur Iju Mthlagu."
+    },
+    {
+        "id": 116,
+        "hymn_number": 116,
+        "title": "Ni Ana Ngu Mpiayu, Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Ni Ana Ngu Mpiayu, Yesu\nSu papatu niginyi.\nSur dunya ca ni anggeri,\nGadabar mdur kitia da.\n\nChorus:\nKuji ga dlir ngyi, kuji ga dlir ngyi,\nAkitiardaja 'ra biku,\nNaja kitiang tsu.\n\n2 Ngudifayu apcinar ja,\nBiku Ca apcubar ja,\nNaja 'nkani shetaryer tsu,\nAra mdzani ngudifu.\n\n3 Mambul giya ki ja dlir ngyi,\nSatudi ni ara mtu.\nKi ja hur da adu Zarna,\nGadabar di ambursa."
+    },
+    {
+        "id": 117,
+        "hymn_number": 117,
+        "title": "Ngudifayu Apida Jiri",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Kwo di ivir inda aga misidagkur.\nKwo di ngudifayu mdzumdzu;\nKwo mi nga thlia da, ma Iju udzu da,\nNgudifayu apida, jiri. \n\nMinagu.....minagu\nNgudifayu apida, jiri. \n\n\n\n2 Kwo Shetar aghu da, ga gwu ga sana da,\nNi di kirda 'citu ngyi mai.\nMa mbursa giya ai anu Yesu,\nMamci ginda ara mpilia da.\n\n3 Iju, Mthlaguda, ki latari ana\nKi yu angerri biku ca;\nGa hamtsini ngudifayu anu ngu,\nBarkar Yesu, ambuduriyu."
+    },
+    {
+        "id": 118,
+        "hymn_number": 118,
+        "title": "Yesu Ayu ki Ngusha Ginda Ambil",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yesu ayu ci ngusha ginda ca\nAmbil wu dunya ku ndigu pitila.\nKi kwuthlur dunya asha ga paraku:\nWaye Wu Vi ginda, jang mdur barka.\n\n2 Yesu ayu ki ngusha ginda ca \nAna ga mji tsapu, ga iu sagida,\nArkira jirkur, aga Yukur ginda:\nWaye wu vi ginda, jang mdur barka,\n\n3 Yesu ayu ki ngusha gında ca\nAbar mji wu boni, kwo wu dumikur\nGa ra liba nda alu lagwu ginda:\nWaye wu vi ginda, jang mdur barka"
+    },
+    {
+        "id": 119,
+        "hymn_number": 119,
+        "title": "Yesu ga Na Ngyi Imi",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\nYesu ga na ngyi imi, imi nir mpi;\nYesu ga na ngyi imi, imi nir mpi;\nAshar ja 'livu, ga nga mji ginda,\nKi nda 'thlia imi, imi nir mpi."
+    },
+    {
+        "id": 120,
+        "hymn_number": 120,
+        "title": "Yesu Ayu Mir",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "120\n1 Yesu ayu mir patu,\nNgwandi Kakadur Iju,\nNamir ca ngusha ginda,\nDunama ca ara ja.\n\nChorus:\nYesu ayu mir, Yesu ayu mir,\nỴesu ayu mir, ayu mir papatu.\n\n2 Yesu adziar wu dunya,\nKi ja 'mbani mji ginda;\nMa mir mai ira Tesu\nKi ja 'pcina bikurmir.\n\n3 Yesu ayu mir kungku,\nJa adlir mir papatu.\nSatudi mir ara mtu,\nNaja 'ra far mir adu."
+    },
+    {
+        "id": 121,
+        "hymn_number": 121,
+        "title": "Ngushar Urushalima",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Ngushar Urushalima,\nGa ir na anu Yesu;\nNamir gushar zaman ku,\nKi mir adlivu ngyi tsu.\n\nChorus:\nPsia thlimi ga ngar na ku,\nPsia thlimi ga ngar na ku;\nNa Hosanna, na Hosanna,\nKi mir adlivu Yesu.\n\n2 Yesu Mthlagurmir ayu\nKi mir acu ndir ginda.\nKi mir agwu lagwur Zarna\nBarkar Yesu ngu Mthlagu.\n\n3 Tadayer ba mamayer\nKi mir ca amil na ku.\nKi mir adlivu Iju,\nAga Yesu Mthlagurmir"
+    },
+    {
+        "id": 122,
+        "hymn_number": 122,
+        "title": "Satudi Mamayer",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Satudi mamayer ga far\nNgusharnda asi,\nPukurayer ga shina nda,\nGa nu ki nda amai.\nAmma Yesu ga kwutia\nGa ndir anu nda, ngwandi ja,\n\"Nggeramu ngusha,\nKi nda 'si udzu da.\""
+    },
+    {
+        "id": 123,
+        "hymn_number": 123,
+        "title": "Kija, Mji Ca ara Sa",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Kija, mji Ca 'ra sa,\nKuji ki mir atubi ga kidu Iju.\nMahidi kaka shili, atsuku dim ya?\nMir angger biku ga karir Shetar.\n\n2 Kija, mji Ca 'ra sa,\nDi mji ca ra du ga mafar Shetar.\nMpadlu 'ga ntaba sursim dim ya?\nMir angger nda ga karir Shetar."
+    },
+    {
+        "id": 124,
+        "hymn_number": 124,
+        "title": "Psi Da Mji Giya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Israila wu iir Masar,\nPsia da mji giya!\nWu bonir mafakur ngu dzau,\nPsia da mji giya!\n\nChorus:\nMai gi! Musa,\nPidum Wu iir Masar;\nNdir anu Firauna,\nPsia da mji giya!\n\n2 Jang di Iju ga nur ngyi,\nPsia da mji giya!\nNaga ra thlia boni dzau,\nPsia da mji giyal!\n\n3 Musa ga hamtsini zua,\nPsia da mji giya!\nDi dil ga sha ga mamci ca,\nPsia da mji giya!\n\n4 Ma nagu apsia nda mai,\nPsia da mji giya!\nJang mukagi ara wuvu.\nPsia da mji giya!\n\n5 Thlir mafakur akuduri,\nPsia da mji giya!\nKi nda amai 'lu iir nda,\nPsia da mji giya!"
+    },
+    {
+        "id": 125,
+        "hymn_number": 125,
+        "title": "Ma Dahur Iju Anga Da",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Ma dahur Iju anga da,\nNi 'ra zibu Iju Mthlagu;\nMa dahur Iju anga da,\nTsu ni ara  shoda ngyi.\n\n1 Adar kir ngu na, Iju ga ndir,\nSu ku wu myaja, u'u ga yer.\nDi ga har liavu, ga kwutia ca,\nDi ga jau Mthlagu, thlir giya va?\n\n2 Asar 'ga boni, Wu dunya ku,\nJang di mpiayu inda thluthlu.\nMa Ỉju Mthlagu, aliba da.\nKWo hivir ai, ni wu tsiaja."
+    },
+    {
+        "id": 126,
+        "hymn_number": 126,
+        "title": "Katsala Yakub, Psia Da Gi",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n1 Katsala Yakub, psia da gi!\nKatsala Yakub, psia da gi!\nKatsala Yakub, psia da gi!\nNi ara psia ngu mai.\n\n2 Vii ivir kudu, psia da gi!...\nNi ara psia ngu mai.\n\n3 Barka ginyi, jang di agwu.....\nNi ara psia ngu mai.\n\n4 Ma mir ambursa di Yesu....\nNamir athlia Zarna"
+    },
+    {
+        "id": 127,
+        "hymn_number": 127,
+        "title": "Ni Amai",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Ni amai, ni alivu, ni ara 'lu yesu\nNi amai, ni alivu, ni ara 'skari\nuvung mai.\n\n1 Mthlagu anga ca, angari yu nga ginda,\nDahaja na angari yu,\nNi ara 'skari uvung mai.\n\n2 Mthlagu anga da, mjir biku ivir tsidzu,\nDahaja na angari yu,\nNi ara 'skari uvung mai.\n\n3 Mthlagu anga da, ni ayu ga zibu ngyi,\nNgudifayu jang anur da,\nNi ara 'skari uvung mai."
+    },
+    {
+        "id": 128,
+        "hymn_number": 128,
+        "title": "Mbani,Da ara Biku Giya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": " Usi, Yesu Mthlagudagu\nMbani' da 'ra biku giya,\nUsi, Yesu Mthlaguda,\nMbani da 'ra biku giya.\n\n1 Akwutiar yu Yesu, akwutiadarja tsu,\nMbani da 'ra biku giya;\nDi bikur dunya amdazanidari,\nMbani da 'ra biku giya.\n\n2 Yesu amturi  ja, ki ja ambani dunya... \nKi mir atitilna ndir ginda 'lu dunya..\n\n3 Naja ara shashili wu dunya ku ..\n Ki ja afar mir ca adu ki ginda...."
+    },
+    {
+        "id": 129,
+        "hymn_number": 129,
+        "title": "Tagwi Dawuda, Tsa Nggulum Gil",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Tagwi  Dawuda,Tsa Nggulum gi!\nHallelu, hallelu\nTagwi Dawuda, tsa nggulum gi!\nHalleluya.\n\n1 Tagwi Dawuda jangu bzir bila,\nKu ginda nda sa kwo titiku mai.\n\n2 Tagwi Dawuda Jangu bzir kushu,\nAtsiari ja Goliath, ga dzugwa wadi,\n\n3 Tagwi Dawuda jangu bzir tsapu,\nDi mji ga har ngyi luktur ptil."
+    },
+    {
+        "id": 130,
+        "hymn_number": 130,
+        "title": "Birni Misidagu, Birnir Iju",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Birni misidagu, birnir Iju.\nPapatu paraku, birni Zarna.\nIju ai adu, di-mji mbumbu udzu ngyi,\nAgunggur ngyi sili, adu Zarna:\n\n2 Birni misidagu, birnir Yesu.\nIndar nda ga Dingyi, birni Zarna.\nAngger ja birni na, caca kaka mji ginda,\nKija ambitir mji adu Zarna.\n\n3 Birni misidagu, jang birnirmir\nCa mji di nda ga mbu, birni Zarna.\nCa nyi, azigamu, ki mir 'zibu ndir g'Iju\nKi ja far mir adu, adu Zarna.\n"
+    },
+    {
+        "id": 131,
+        "hymn_number": 131,
+        "title": "Ii Minagu Ai Adu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1. Ii minagu ai adu,\nAnu mjir Yesu ca wu dunya.\nMa mbursa ai ara mir tsu,\nAra du mir ga inda 'ga ja.\n\nNamir ca.... ara mbu.\nMa mir azibu Yesu Mthlagu:,\nNamir ca....: ara mbu..\nAdu iva gi Yesu Mthlagu.\n\n\n2 Uvuna namir ca wadi\nUdzur Yesu mdur mbani mir ca,\nNamir afari bonir dunya,\nMa mir inda udzur Mthlagurmir.\n\n3 Nagu Ijurya, mdur ntikitsi,\nNaya ca agwu ga dlivu ngu;\nGadabar yukur ginyi odi,\nBarka ginyi ara kudu mai,"
+    },
+    {
+        "id": 132,
+        "hymn_number": 132,
+        "title": "Yesu ara Adzia",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1.Yesu 'ra dzia; Yesu 'ra dzia,\nGa dabu su ginda,\nUu caca, uu caca,\nKija adlir nda.\n\nMji minagu, papatu,\nNanda uu ginda.\nYesu jang adlir nda tsu,\nKi ja ayu nda.\n\n2 Ki ja dabia, ki ja dabia \nMjir ptilkur ginda ca.\nMji minagu, ku ngu tsapu\nKi ja adlir nda\n\n3 Ngusha mama, ngusha mama,\nKi mir azibu ngyi\nNaja 'nga mir, naja 'nga mir,\nKi ja adlir mir"
+    },
+    {
+        "id": 133,
+        "hymn_number": 133,
+        "title": "Bici Ku ga Tidu, Vii Ivir Na",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Bici ku ga tidu, vii ivir na,\nParaku asari, kwuthlu ga na tsu.\n\n2 Shashilagayer ka du, jangu thlir tsiagu,\nCa kaka hya ivir ambil minagu.\n\n3 Yesu ngu minagu, fwa barka ginyi\nAnu ngusha caca ku ivir yu ngu.\n\n4 Ki ga kabartsini bikurya caca,\nPcina ngudifaya ara dumikur.\n\n5 Ar libamur Shetar, kwo tsangu ginda,\nDumikur, kwo fati, kitia ngusha ca.\n\n6 Kitia mji kulangga, ptina shilgurnda,\nKitia misituyer, ngar adduarnda.\n\n7 Bila ya wu vii, wu yukur ginyi,\nDar ya ghanyi tsapu, dar ya dunama.\n\n8 Ki ga mpina vii anu ya lapia,\nGa ra hyanba ya ga iu thlir ginyi."
+    },
+    {
+        "id": 134,
+        "hymn_number": 134,
+        "title": "Satudi  Bici Atidu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Satudi bici atidu,\nDi vii anari,\nKi yu afari boni ca\nGa ra dinga Mthlaguda.\n\n2 Barka ginda, ni awadi,\nDi ja ga dar da mpi;\nMisidagkur ka ra ya tsu,\nCa ahya ara Mthlagu.\n\n3 Dunya ku tikum wu tsiaja,\nBa bicir fa giya,\nAra ja tsu, kwo mi ana,\nNiyu ara tsidzu mai\n\n4 Kwo di mpiayu akudu,\nHivir atu da mai.\nNiyu ambursa di Iju,\nNaja anwara dlir da."
+    },
+    {
+        "id": 135,
+        "hymn_number": 135,
+        "title": "Yamadu Akubari, Fizau Anari Dam",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Yamadu akubari,\nFizau anari dam.\nUlari mir ashuwari,\nMir alu fa ga dim.\nSu caca wu tsia Iju,\nBici aga padu.\nAfiar ja mpi wu wulfu,\nBa dunamar udzu\n\nMji caca awadi, su ca ausia ngu\nNanda agunggur ngu sili,\nIjurya, Mthlagu, Ptil.\n\n2 Yang, Iju nga fia tsu,\nBa ntsintsilkur nir bdlu.\nJang athliar mji sur uza,\nMintsuyer minagu.\nMir afa mintsurmir ku,\nGa thlika wulfu tsu.\nIju 'ra dar mir padu,\nKi ja amtsu ga hu.\n\n3 Naya 'usiangu Tada,\nGa latur uza ku;\nWulfu ki ya athlikana\nGa ra thlia mpir udzu.\nMpi ai kula kudu,\nWulfari, ndir ginyi.\nBar ya wu thlika ndir ku,\nWu ngudifa mji ca."
+    },
+    {
+        "id": 136,
+        "hymn_number": 136,
+        "title": "Iju Mthlagu Ivir Gwu Mji",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Iju Mthlagu  ivir gwu mji,\nKuji mir azibu ngyi,\nNamir caca tsu mji ginda,\nKuji ki mir adlivu ngyi,\n\nChorus:\nKaya, kaya, mji ca,\nMambul Paraku Kakamtu\nJangu ivir nga mir.\n\n2 Ma mir anu mir angger biku,\nIju Mthlagu 'ra mbani mir.\nNgudifaya apidari,\nMambul gi Íju adziari.\n\n3 Wangu kula yu mpi dzigam\nAra Iju ngu mdu digal?\nKatsumur dunya 'ghurdari.\nMangki, Yesu na, bar da gi!"
+    },
+    {
+        "id": 137,
+        "hymn_number": 137,
+        "title": "Wu Ki Ngu Tsapu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Satudi misidagkur ai wudu ki,\nNgudifa mji apida, nanda awadi.\nMa sursim acitu mji, \nDi mji caca kalali,\nJang misidagkur ai, wu ki ngu tsapu.\n\nChorus:\nIvu ki minagu,\nMji patu ivir wadi,\nMa yukur ai.\n\n2 Kwo ma ki jangu kushu, ma Ja minagu ,\nMa mji 'cu ndir di hangkal aga yukur tsu\nWu ki na tsu paraku,\nMpa kwo ndora ai mai,\nWaye ayu kuvangyi, wu ki ngu tsapu.\n\n3 Yesu Mthlagurmir ai, wu ki ngu tsapu,\nMa mji afia ngyi Mthlagu arkira su ca.\nJangu, kwo mi ara na,\nKwo gili kwo sur asar,\nMji na ara mdia Su ca, Wu ki ngu tsapu."
+    },
+    {
+        "id": 138,
+        "hymn_number": 138,
+        "title": "Kija, Mthlagu, Ashiliri Ya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Kija, A Mthlagu, ashilir ya,\nNaya 'tsa tsi anu ngu.\nNgudifaya pirtu caca,\nNaya ayu ga usia ngu.\n\n2 Misidagkur ginyi, Iju\nGa fwa ya wu bici ku;\nJigarya tang di ya ga thlu,\nGa pia ngyi adangwa ngu.\n\n3 Dlir suyer ku, Iju Mthlagu\nNaya 'thlawar ngu diri;\nSu nga nu tang jang sagidarya\nCaca, nagu ngu Mthlag'ari\n\n4 Ga fa, ga fa, barka ginyi,\nMji ginyi ivir dinga,\nArkira minagkur ginyi ku;\nParang naya ana ngu tsu.\n\n5 Suyer ku ca Iju Mthlagu,\nDi kirya naya 'na ngu,\nKwo wu wadirya kwo wu bonirya,\nKi ya azibu ngu parang."
+    },
+    {
+        "id": 139,
+        "hymn_number": 139,
+        "title": "Tada apa Yesu aga Mambul",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Tada aga Yesu aga Mambul,\nNanda Mthlagur su ca,\nDunamakur Iju jang ayu mir,\nKi mir adu ki ginda.\n\nChorus:\nDunamakur Tada ai,\nDunamakur Yesu ai,\nKi mir atubi ga dlu ca,\nMambul Paraku, su ginda.\n\n2 Paraku Kakamtu Mambul g'lju\nIvir gwu mjir zibu.\nWangu kula wadi, waratar mpi\nKula kudu ai.\n\n3 Boni anu mdu ku kula mbursa,\nAnu Yesu, kadzang.\nTada 'ga bzir, mama, ma nyi 'ngari,\nYesu ivir nga mir."
+    },
+    {
+        "id": 140,
+        "hymn_number": 140,
+        "title": "Ki  lju Aliba Mir Lapia",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "1 Satudi mir antikia udzu,\nDi waye aliva ginda,\nKi lju atsah'na lagwu,\nGa ra liba mir ca lapia.\n\nChorus:\nKi lju aliba mir lapia.\nSei di mir akubu 'ga Yesu\nKi lju aliba mir lapia,\nSei di mir akubu 'ga Yesu\n\n2 Satudi mir antikia udzu,\nKi wave adinga Iju;\nGa kidu barka gi Yesu,\nIvir bila kirwa ginda ca.\n\n3 Satudi mir antikia udzu,\nKi waye acu ndir lju;\nAnu mji ginda ngu ivu,\nIvir mcaku ptilkur gi lju."
+    },
+    {
+        "id": 141,
+        "hymn_number": 141,
+        "title": "Ngushar Mama Azigamu (nar bra)",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Ngushar mama, azigamu, m-m-m-m-\nNkwaiyer mama, azigamu, m-m-m-m-\nMaina Yesu nga jau mir adu,\nKuji mir atubi,.\nMir atubi di mir adu,\nNamir adu gi lju,\nIju ngu Mthlagur mpi,\n\nKir Shetar ngu dumi,\nNaja ayu ga sana mir,\nMir ana ngyi lagwur mantsal.\nLagwur tsisim gi Yesu jang misidagu.\n\nNgushar mama, tubiamu\nMir atubi di mir adu,\nDi mir ad' iva gi Mthlagu\nIvir inda gi Yesu misidagu.\nMa mbursa ai namir ara du,\nIvir inda gi Iju,\nNamir 'inda di wadi.\n\nYesu gu ara liba mir adu,\nDi mir ara 'nda ar kilisu gi Mthlagu\nMir ulari ngwa gi Yesu,\nAngwara pitila \nAngwara lanatriki.\nKi mir atubiamu\nAnu Iju Mthlagu, Ptilurmir"
+    },
+    {
+        "id": 142,
+        "hymn_number": 142,
+        "title": "Ngwandt Yesu, lju Ngu Mchlague Mpi",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Ngwandi Yesu, Iju ngụ Mthlagur mpi,\nBici di mir adu, di mir ara 'du birni,\nBirni gi Yesu, birni gi Yesu misidagu.\n\nNgushar mamaver, kaka nkwaiyer mamayer,\nMir atubiamu dị mir ara `di g'inda Wu birni,\nBici di mir adu di mir ara du iu shere;\nU'ur shashidi ngu, dige, mai,\nAmma u'ur kitsa ivir mba adu,\n\nNamir ausia Yesu di ja ahyan' mir paraku;\nBici di mir 'du, di mir 'du g'inda 'ga Yesu.\nBirni gi Yesu, birni gi Yesu misidagu,\nBici di mir 'du, di mir 'du ga 'du Zarna,\nZarna gi Yesu, Zarna gi Yesu misidagu.\n\nMa Shetar ashili, namir ana ngyi lagwur mantsal\nMir atubiamu,di mir angger lagwur shetar ku,\nShetar ngu dumi, naja yu ga sana, mir.\nMir angger kwuthlu, di mir ahur lagwur Paraku"
+    },
+    {
+        "id": 143,
+        "hymn_number": 143,
+        "title": "Gajimaini Giyaramu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\nGajimaini giyaramu, aiye....\nNkwaiyer mama asi mir wu mbwa, aiye ...\nAsi mir wu mbwa gi Iju, aiye...\nKi mir abilia undi,\nNamir asi ga tubi\nAnu Iju ngu Mthlagur mpiamir,\nKi mir atsa tsi anu ngyi,\nKi mir agunggur ngyi sili.\n\nMbwa gi Shetar ngu didi,\nShetar ayu ga sana mir.\n\nMa mir ambursa ga Mthlagu,\nKuji mir ali ga ubi.\nMa mir ambursa 'ga Mthlagu,\nNamir ara du birni gi Yesu;\nYesu, Bzir gi Iju,\nIju, ngu Mthlagur mpiamir..\nKi mir atsa tsi anu ngyi,\nKi mir agunggur ngyi sili\nGadabar naja ngu Mthlagur mpiamir."
+    },
+    {
+        "id": 144,
+        "hymn_number": 144,
+        "title": "Ayu Mir, Ayu Mir",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "144\nAyu mir, ayu mir, ayu mir ga du,\nAyu mir ga du, iva gi  Mthlagu;\nMa mir atubi, ma mir ambursa,\nMa mir ambursa, namır ara du,\nNamir ara du, iva gi Mthlagu.\nIvir inda odi, di ja 'milia mir.\nShetar ayu, ngwa, ki ja 'sana mir,\nShetar ayu ja, ki ja 'sana mir.\nJang ngwandi Mthlagu, namir asa mai\nJang ngwandi Yesu, namir asa mai,\nMa mir ambursa, namir ara du.\nNamir atsa tsi anu Mthlagurmir,\nNamir atsa tsi anu Mthlagur mpi."
+    },
+    {
+        "id": 145,
+        "hymn_number": 145,
+        "title": "Ngushar Mama",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n145\nNgushar mama aiya? Ngushar mama sosei\nParaku awuri aiya? Paraku awuri sosei,\nNkwaiyer mama...........\nKi mir ahyadu ..........\nMir atubi...............\nAnu Yesu................\nYesu ayu mir............\nKabartsini ai...........\nGadabar mir.............\nKi mir atubi............\nYesu amairi adu ........\nTada ashina.............\nTada azigu .............\nNaja bura adzia ........\nNaja ahur mir...........\nAdu ki gi Iju...........\nAdu Zarna ..............\nIvir inda. .............\nYesu ga milia ..........\nKi mir atubi............\nKi mir ara du...........\nMir angger Shetar.......\nLagwur Shetar...........\nSei u'u. ...............\nU'u kula kudu ..........\nNgushar mama............\nMir amai adu ...........\nAdu Zarna ..............\nIvir inda...............\nYesu ga milia...........\nShilgu ai mai...........\nBoni ai mai.............\nHivir ai mai............\nSei misidagkur .........\nWu ki gi lju............"
+    },
+    {
+        "id": 146,
+        "hymn_number": 146,
+        "title": "Ngushar Mama, Iju ivir Nga mir",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "146\n\nNgushar mama, Iju 'vir nga mir\nNkwaiyer mama, Iju 'vir  nga mir,\nLatu anari, Maina Yesu anga mir,\nNaja ngu Mthlagur mpi.\nMaina Yesu anga mir, namir ngusha ginda,\nNamir ngusha di mir ara 'du.\nWang aliba mir 'du? Paraku gi Yesu aliba mir 'du.\n\nYesu ngu Bzir gi Iju, Iju ngu Mthlagur mpi.\nMji cacadu gi_Yesu, lju anga mir;\nlju anga mir, Iju anga mir,\nNaja ngu Mthlagur mpi.\nMangki dagy Shetar hyu lagwuayu\nMir cacadu gi Yesu, mir angger Shetar,\nmir adu ga tubi;\nMir adu ga tubi, mir agunggur sili wanu Yesu ngu Mthlagor mpi.\n"
+    },
+    {
+        "id": 147,
+        "hymn_number": 147,
+        "title": "Wazha Baduwari",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "147\n\nWazha baduwari,\nazha baduwari, andau,\nAndau, ma min mai dagu Hyel.\nNahi mathliki...\nNahi shilii. .\nNahi kwapliagu..."
+    },
+    {
+        "id": 148,
+        "hymn_number": 148,
+        "title": "Ngushar Junya awadi",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "148 Ngushar dunya ca nda awadi.\nMi nga na di ca nda wadi?\nYesu jangu mwalur nda ngwa.\n\nYesu ma ndang ngwandi mji ya.\nTakulashu maja kuya nda dzia ya.\nNgusha sai siya julia nyi ma,\n\nMwalur ngusha ja sai Yesu ri.\nAludzu nyi ja nga nda.ca\nBarka digal na nda dungwa."
+    },
+    {
+        "id": 149,
+        "hymn_number": 149,
+        "title": "Wang mwalur ngusha",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "149 \nmwalur ngusha?\nWang mwalur ngusha pidim\nYesu\n\nWang mwalur ngusha ligu?\nYesu\nWang ayu ga kitia nda?\nYesu\nWang Mthlagur nda sizugu?\nYesu\nWang Mthlagur nda har kungku?\nYesu\nWang`anu kinda inda dzu nyi?\nYesu\nWang ga inda adar Ngu na?\nYesu\nWang-ga ndir anu mji tsu?\nYesu\nWang anyani mji di difu?\nYesu\nWang ga hyan nda tsu mpi?\nYesu"
+    },
+    {
+        "id": 150,
+        "hymn_number": 150,
+        "title": "Iju Tada ngu milla su ca",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "150\n\nIju tada,\naya, Iju Tada so sai! (jiri)\n\n Wanga milia bici?\nWanga milia dunya?\nNaja ngu ga milia wu.\nAya naja nga milia wu sosai.\nPsur yammadu ai Aya psur yammadu\nSur sim tsu ai;\nMira usia Tada"
+    },
+    {
+        "id": 151,
+        "hymn_number": 151,
+        "title": "Ngushar mama Halleluya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "151\n\nNgushar mama,                 Halleluya.\nNkwair mama,                  Halleluya.\nMaina yari,                   Halleluya.\nMaina Yesu Yari               Halleluya.\nKi mir tubi,                  Halleluya.\nKaya tawi,                    Halleluya.\nKaya nkwai,                   Halleluya.\nKi mira si ga tubi            Halleluya.\nMaina Yesu nga mir,           Halleluya.\nHya di ma wi,                 Halleluya.\nAlira Yesu,                   Halleluya.\nNaja Si ga ba mir,            Halleluya.\nMaina kur gi Yesu,            Halleluya.\nMainar Ptilkur,               Halleluya.\nPtilkur gi Iju,               Halleluya.\nKi mira wadi,                 Halleluya.\nKi mir tsa tsi,               Halleluya.\nAnu maina,                    Halleluya.\nAdu zarna,                    Halleluya.\nIvir inda gi Yesu,            Halleluya.\nAda gu lju                    Halleluya.\nAdu Zarna,                    Halleluya.\nAya awar tawi,                Halleluya.\nApagur nkwai,                 Halleluya.\nKuji ki mir a tubi,           Halleluya.\n"
+    },
+    {
+        "id": 152,
+        "hymn_number": 152,
+        "title": "Iju Tada yu mir",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n\n152 Iju Tada yu mir_ aiya mira usia nyi, na mir ca.\nKija difu ai, aiya mira usai nyi, na mir ca.\nKija katsum ai, aiya mira usia nyi, na mir ca.\nKija tsu Ki ai, aiya mira usia nyi na mir ca.\nBada tsu ki ai, aiya mira usia nyi, na mir ca.\nKatsim dubu ai, aiya mira usia nyi, na mir ca.\nLang ca.\nUsi Iju Tada, aiya mira usia nyi, na mir ca\nGwara nga tsa ngusha aiya mira usia nyi na mir\nKa ya ngusha Twai, aiya mira usia nyi, na mir ca.\nKa ya ngusha nkwai, aiya mira usia nyi, na mir ca\n\nWayo ndi nyi, aiya mira usia nyi, na mir ca.\nDigu ska sa latu, aiya mira usia nyi na mir ca.\nMa gu kuya tubi, aiya mira usia nyi na mir ca\nWayo ndinyi, aiya mira usia nyi namir ca"
+    },
+    {
+        "id": 153,
+        "hymn_number": 153,
+        "title": "lju Tada Ngu Amilia Su Ca",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n153 Iju Tada,\nAya Iju Tada sosai!\nWanga milia Bici?\nWanga milia Vii?\nWanga milia Dunya?\nNaja ngu milia wu.\nPsur Yamadu ai.\nSursim tsu  ai.\nImi Tsu ai.\nKimir ausia Iju.\nYa kimir usia nyi."
+    },
+    {
+        "id": 154,
+        "hymn_number": 154,
+        "title": "Ngushar Mama",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "154 Ngushar Mama     Halleluya\nNgushar mama,        Halleluya\nNkwair Mama          Halleluya\nMaina Yari-          Halleluya\nMaina Yesu Yari      Halleluya\nKimira tubu          Halleluya\nMaina Yesu nga mir   Halleluya\nHya di mani          Halleluya\nAlira Yesu.          Halleluya\nNa ja si ga bar mir  Halleluya\nMinagkur gi Yesu     Halleluya\nMainar ptilkur       Halleluya\nPtilkur gi Iju       Halleluya\nKi mir wadi          Halleluya\nki mir atsa tsi      Halleluya\nAnu maina Yesu       Halleluya\nKi mi adu zarna      Halleluya\nIvir inda gi Yesu    Halleluya\nKaya awar tawi       Halleluya\nApagur nkwa'i        Halleluya\nKuji ki mira tubi    Halleluya\nAnu Yesu             Halleluya\n\n"
+    },
+    {
+        "id": 155,
+        "hymn_number": 155,
+        "title": "Mihiagu Yesu Manki Na Barda",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "155\nYesu Kristi manki na barda.\nKuvada odi tsu kiga abar nda.\nLatu diya kula nagga ki gu abar ya.\nAsini ya abur nagu antakil mai.\nBici di ya adabu Wu mbwa gi nyi,\nMji odi tsu ai kula si.\nMthlagu manki bar nda,\nKinda ca ana lapia ga usiang tsu.\n(Tada mdu ka Du)"
+    },
+    {
+        "id": 156,
+        "hymn_number": 156,
+        "title": "wo dunya ku ndir ai",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n\nWu-dunya ku ndir ai.\nNdir na tsu sai ma nda.\nMa ma nda ga jauba.\n\nBaba: mm - Nia sibu mai.\nMama: mm - nia sibu mai.\nMjirki: mm - nia sibu mai.\nMji ca: mm- nia sibu mai.\n\nA- dar wu na Yesu ndir.\nA- dar wu na Yesu ndiri.\nNdir na ma sai ga jau.\nMa gu kula jau asar lang.\nNgwandi Yesu Nia ra mtu.\nMa nia mtu mamcia pu.\nMa ja apu su ana fa.\nAsedim Camirku nir shetar,"
+    },
+    {
+        "id": 157,
+        "hymn_number": 157,
+        "title": "Yesu Ngu mdur bila",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\nYo, ngusha tawi, E   mdur bila...\nYo, ngusha nkwai, E  mdur.bila...\nMdur bila mdur ba ngusha, E-. mdur bila\n\nKo marye,\nYesu (kwe) mdur bar mdu ma!\nKo (kwo vii,\nYesu kwe mdur ba mdu ma!\nKo bici,\n Yesu kwe mdur ba mdu ma!\n\nWangU mdur bila? Yesu ngu mdur bila.\nWangu di ja bila? E - mdur bila\nYesu ngu mdur bila mir,\nE-naja ngu mdur bila mir."
+    },
+    {
+        "id": 158,
+        "hymn_number": 158,
+        "title": "Thlir tsla  Iju",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\nWanga milia bici                   .Ja Iju Tada\nWangu milia vii?                   .Ja Iju Tada\nShashiliga ga hya?                 .Ja Iju Tada\nWangu ga milia wu?                 .Ja lju Tada\nPsur yamadu ai?                    .Ja Iju Tada\nWangu ga milia mji?                .Ja Iju Tada\nKar Ngu tsu ai?                    .Ja lju Tada\nWa pia kari dunya?                 .Ja Iju Tada\nWangu ga gila dunya?               .Ja Iju Tada\nMitamnbuda du?                     .Ja Iju Tada\nMamabora Psu?                      .Ja Iju Tada\nKar ma iju dlu?                    .Ja Iju Tada"
+    },
+    {
+        "id": 159,
+        "hymn_number": 159,
+        "title": "Nanyi ngusha Gu Wa?",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Nanyi ngusha Gu wa? Ngushar mjir Iju!\nWangu Iju ra? Mdu ku milia dunya\n\nJa Iju Tada\nMira usia nyi\nGa tsar nyi tsi di gwara\nIju digal dige, digal dige\nDigal dige.\nIju digal dige, digal dige,\nDigal dige"
+    },
+    {
+        "id": 160,
+        "hymn_number": 160,
+        "title": "Ki du Iju gi Mthlagu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "160 \n\n\nTadarya adagiju,\nThlimung paraku kakamtu.\nPtilkur ginyi kija shili.\nSu di gu hugguri ki mji a iu dunya ku,\n\nNdigu air kir adagiju\nSur simir ashina ga dar ya\nGa kabartsini ya ara bikur ya\nNdigu di ya akabartsini kuvar ya ara bikur nda\nLagu dumikur di gu ska hu di ya mai,\nAmma ga kitia ya ara shetar (ja)\nGadabar ptilkur ca niginyi,\nSatumari ye, Amin."
+    },
+    {
+        "id": 161,
+        "hymn_number": 161,
+        "title": "Wanga ir iki ku?",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "Satu\n\n161 Iki ku Tada nga milia.\nWanga iri cidi ku?\nCidi ku Tada nga milia.\nWanga milia mbilmbil?\nTada ngu ga milia mbilmbil\nWanga ir Bici tsu!\nBici tsu Tada nga milia.\nWa nga milia mji ca? Tada nga milia mji ca,\nWa nga milia su ca? Tada nga milia su ca.\nJa suku jijiri dungwa, Tada ma digal dige."
+    },
+    {
+        "id": 162,
+        "hymn_number": 162,
+        "title": "Karya, Karya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n162 Karya, karya,\nKarya mama. Karya tada.\n\nKarya, karya,\nKarya ngwamda, karya zamda.\nKarya, karya, Angwara ndir gi shetar kuji ga nda gi.\nNyi lang.\n\nkarya Karya,\nPsia thlimi anu Yesu jangu di gu ara wadi\nKarya, karya.\nAngwara inda gi nyi lang ku ji ga tubi (ma)\n\nKarya, karya,\ndumikur gi shetar ca mji awi adi\nkuji kima tubi abanyi ga dlir ndir gi Yesu\nkarya, karya,\nkuji ma tubi abanyi di ma ndir gi Yesu"
+    },
+    {
+        "id": 163,
+        "hymn_number": 163,
+        "title": "yesu ga nyani mji di difu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": " Bici laka adar ngu latu na.\nYesu ai du ivir inda uvuna.\nDi mji odi ga sia inda dzunyi adar Nguari\n\nJangu di Yesu ga baditsini ndir ngwandi ja,\nIjuai ligu dzur mir caca.\nCaca nda indar nda zim ga psia thlimi.\nHar ga far ba mi ka tu nda na, latu na,\nYesu (tsu) asini ma ja psia ndaga mai abana\nJangu di dlami ara inda kuta wuvu wu mtagu\nHar di Yesu ga nyani ba kadurayer di difu."
+    },
+    {
+        "id": 164,
+        "hymn_number": 164,
+        "title": "Maryamu ayabar bzir",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "164 Maryamu ayabar bzir\n(3)\nGayaba wu nggaba. (3)\n\nThlim gi bzir na Yesu(3)\nYesu Kristi Mthlagu.(3)\n\nMjir bila an gar nda,(3)\nCa nda sia thlawa nyi,(3)\nVidimji ya Yesu.(3)\nMji dunya thliari paraku,(3)\nParaku nir mpi.(3)              \n                                paraku ku sia ra Yesu (3).        Yesu antalkil Mai.(3)           tsaram tsi any Mthlagu,(3)         mdu mbani dunya.(3)"
+    },
+    {
+        "id": 165,
+        "hymn_number": 165,
+        "title": "Iju ka milia mdu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "165\nIju ka milia mdu ,\nGa sia milia ngusha.\nGa sia pia nkwai.\n Ga pia tawi tsu.\nWu ma naja ngu iu.\n Hya tsuma amiliar ja.\nThla tsu ma amiliar ja tsu.\nCa su dige.\nIju digal dige\n Iju digal dige lang gi da amnda\nSu ca.\n\nKija tir ya adangwa ngu\nManki tada ga dlir da ga,\nGa fwa da barka ngu digal.\nKaya, kaya mji ca.\nMambil gi lju jangu ivir gu Mji."
+    },
+    {
+        "id": 166,
+        "hymn_number": 166,
+        "title": "Iju digal",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "166 Iju digal\nIju digal, Iju digal - oh, Iju digal\nlju mdu ku fia da wu duniya ku.\nlju kula mpi nia zibu mai.\nTada Yesu ngu dira zibu dam.\nKija Iju digal nia jau ngu;\nAbar di gu inda naga zibu wo?      Ma Kula zibu, Nia zibu,nyi.     mahidi Nia ra jau nyi.             Ma tawi ngari Santi ndir ma?       Ma nkwai ngari na jau wo?           ma shili inda mi nda jau ra?      Sai iju digal dira jau dam.       Waya mu Nia ra jau nyi.             Ma shetara si Yesu ra ndibu nyi. Gyehyu kija Ciba mingu dzau yi. Shetar ma latu tsu bada zua ya?mandaba pathlu ma janga pcir nyi. \nwaya mu nia ra jau nyi.           \nma Sala zibu mala zibu mai.      kija tada zibu bzira zibu mai.   waya mu abang di mji nda ya?      kuji Mira zibu Mira mbudu."
+    },
+    {
+        "id": 167,
+        "hymn_number": 167,
+        "title": "Falba Yesu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "\n\nTada minagu- Falba Yesu m m m\nAya mwalda...falba yesu m m m\nAya banyi da...falba yesu m m m\nTagwi minagu...falba yesu m m m\nAya mwalda...Falba yesu m m m \n\nWayamu mira usia Yesu aga thlir\nWayo Wayo mu mdu kula ndir.\nMira usia nyi ga falbanyia mu di na\n Wayo Wayo mu mdu kula ndir\nMa shetar si mira buba nyi mu di,zuwa\nWayo wayo mu  mdu Kula ndir.\n                                Maina Yesu...falba Yesu m m m;   yesu Birni...falba yesu m m m;    yesu mwalda ra...falba yesu m m m; \nAyaa gaji....falba yesu m m m ;    ma Yesu dzia sai biciri Mira ndir. \n  wayo wayo mu mdu Kula ndir.      ma shetara so Mira milbu nyimu di  zuwa.                            \n wayo wayo mu mdu Kula ndir.      mtu gi Yesu ampiliar Mir ara hya. \n  wayo wayo mu mdu Kula ndir.    kaya nwalda ...falba yesu m m m;  kaya ngwamda....falba yesu m m m ; sa gawai mai ja .... falba yesu m m m;.                            \n (yarwa yarwa)"
+    },
+    {
+        "id": 168,
+        "hymn_number": 168,
+        "title": "Ndir hi Yesu ngu di yu nga",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "168\nKwo ni yu ngu inda kula difu,\n Ndir gi Yesu ngu dia nga.\nKWo shetara so ga sia mpa ye,\n Ndir gi Yesu ngu dia nga.\nKWO margira si gasia mya ye,\n Ndir gi Yesu ngu dia nga.\n Tsa tsi, tsa tsi, tsa tsi!\n Kuji mir a tsa tsi anu Mthlagu.\n Ndir gi Yesu ngu dia nga.\n2 KWO niyu nga inda ga sur nami,\n Ndir gi Yesu ngu dia nga.\nDi margi ra si ga nggushi,\n Ndir Yesu ngu dia nga.\nMa ja  ska  ndir di mji cu dim,\n Ndir gi Yesu ngu dia nga.         kwo yesu nga shili tai ya lu;    \n ndir gi yesu ngu dia nga.         sai yesu nga sini ga dzanba,     \n ndir gi yesu ngu dia nga.         ma mbursa ra gu tsika'o gu.      \n ndir gi yesu ngu dia nga.       maja jili U U ku Di mji cu ku ya. \n  ndir gi yesu ngu dia nga.       \n Tsa tsi, tsa tsi, tsa tsi!      \n Kuji Mira tsa tsi any Mthlagu.  \n Ndir gi yesu ngu dia nga"
+    },
+    {
+        "id": 169,
+        "hymn_number": 169,
+        "title": "Yesu mdu ngu aga mpi mbani ya",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "169\n\nYesu mdur mbani mji,\nKi ja ya ashiliri.\n                                  Yesu mdu ngu aga mpi,\nKija ya mbani ya.\nCa ya wu dunya ku,\n                                  Sai ki ya asi da gu.\nLagur mbu ại mai,\nSai ki ya asi da gu\nMahidi kaka shili,\nMi nga na di mji asa? (asara?)\n\nMa shetara mbutur mdu.\nAnar ja ga mdur u, u.\n\nrale\n\nMa Yesu a nga mdu\nAnar ja ga mdur mpi.\n\nKi mji ca afal Yesu,\nNaja ngu maina tsapu.\n                                   Ki mji ca adluvu Yesu,\nNaja ngu Ijur mpi-"
+    },
+    {
+        "id": 170,
+        "hymn_number": 170,
+        "title": "Usi iju ka du",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "170\n\nUsi iju - \n\nUsi mdu--- ka du, Tada.\nMdu ka milia mir\nKa milia mir ca, Tada.\nIju kula whunu-\n Iju awhunu mai, Tada.\n                                   Ku ngusha afal nyi.\nIju gwarda, Tada.\nMdu'a'i kula yu mpi ya?\nMpi kula kudu, Tada.\nSursim odi-\nDi mji agu ga sim, Tada.\nWanga namir?\nIju mdu ka du, Tada.\n\nMira usia nyi-\nUsia mdu ka du, Tada.\nTadanya Yesu-\nTadar mir a du, Tada.\nShetar ngu dumi-\nDumi kula kudu, Tada.\nMpi kula kudu, Tada.\n\n\nMa shetara ndir\nMira nggeri ndira ri Tada.\nMa Yesu ndir-\nMira dliri ndira ri, Tada.\nKaya kaya-\nKaya mji gi ya, Tada.\nMdu kula a'i yu mpi ya?          Kuji Mira tubi\nDi mira du ga mbu, Tada."
+    },
+    {
+        "id": 171,
+        "hymn_number": 171,
+        "title": "Mwal ngu Mwal",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "171\n\nMwal ngu mwal, angar nyi.\nYesu, - naja ngu mwal digal.\nYesu, - naja ngu mwal jiri.\n                                  Mwal ngu mwal, angar nyi\nMwalyer odi nir gwara\nMwalari, na nda ngu mwal jiri.\n\nMwal ngu mwal, angar nyi\nMwalkur - ndang ai dlirbu mai.\nMwalna - naja ngu mwal gwara.\n\nMwal ngu mwal, Yo ndang dim.\nYesu najai, sim mdu mai\nYesu, Naja ngu mwal digal.\n\nMwal ngu mwal, angar nyi\nMwalkur -ku tsilia jiri. (wadiamu)\nMwalna, naja ngu mwal jiri,"
+    },
+    {
+        "id": 172,
+        "hymn_number": 172,
+        "title": "Padu Yammadu Bici",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "172 Padu Yammadu Bici\n\nTudir imi ngu amtsa sur fa tikum, O! ho!\nMbilur bici ngu amba sur fa tikum, O! ho!\nYammadu ma mwalur nda, ga sur fa tikum '\nWanga ciba minagukur yammadu? Or ho!\nWanga yu ga ında kula mbilir, bici? O! ho!\nUsia Iju, Iju jangu Mthlagu cari (kari) Ol ho!"
+    },
+    {
+        "id": 173,
+        "hymn_number": 173,
+        "title": "Kija mji ca ara sa",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "173 Kija mji ca ara sa\nKuji ki mira tubi ga kidu Iju.\nMahidi kaka shil atsuku dimya?\n                                 \n Mira nggeri biku karir shetar.\n                              \n Kijamji carasa.\nDi mji ca ra nda ga ma far shetar\nMpadlu aga mabaq sur sim dim ya\nMira ngger nda ga karir shetar."
+    },
+    {
+        "id": 174,
+        "hymn_number": 174,
+        "title": "Iju ayu mdu",
+        "theme": null,
+        "scripture_ref": null,
+        "lyrics": "174\nIju ayu mdu\nIju ayu mdu,\nIju ayu mdu ku lassa.\nIju ayu mdu U Bazza.\nIju ayu mdu,\nIju ayu mdu, ku Shafa.\nIju ayu mdu ku Malgwi.            \n iju ayu mdu\nIju ayu mdu ku India.\nIju ayu mdu ku Ingila.\n\nIju ayu mdu,\nIju ayu mdu ku kauji..\nIju ayu mdu ku Gwoza.\nIju ayu mdu,\nIju ayu mdu ku Kano.\nIju ayu mdu ku Balle.\n\nIju ayu mdu,\nIju ayu mdu ku Ganda.\nIju ayu mdu ku Yola.\nIju ayu mdu,\nIju ayu mdu Amerika.\nIju ayu mdu dunya ku dunyiya"
+    }
 ]
